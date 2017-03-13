@@ -2,7 +2,13 @@ This page explains how to accomplish common things that are not built-in Jbuilde
 
 Saving the git revision in the executable
 -----------------------------------------
-`cat jbuild`
+
+The following jbuild file will generate a rule that writes the current package version and git revision in a `version.ml` file.
+
+The idea is to use the OCaml syntax for jbuild files as described in the manual to call git and keep a `version.ml` file up-to-date with the current git revision. What it does is that it systematically calls `git log ...` to extract  the commit hash of the current head and generates a rule to produce the `version.ml` file that hard-code this commit hash.
+
+After the first build, if jbuilder see that the rule has changed, it will automatically execute it again to produce an up-to-date `version.ml` file.
+
 ```ocaml
 (* -*- tuareg -*- *)
 #require "unix"

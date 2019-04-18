@@ -1,4 +1,7 @@
-Welcome to the jbuilder wiki!
+Dev meetings
+============
 
+We have a video conference meeting between developers of Dune at the
+end of every month.
 
-The [user recipes pages](User-recipes) lists methods to achieve common tasks with Jbuilder.
+[April](meetings/april)

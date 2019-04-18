@@ -1,3 +1,0 @@
-April developer meeting
-=======================
-

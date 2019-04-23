@@ -23,3 +23,17 @@ will produce an AST that is accepted by the version of OCaml in use.
 This will add a bit more code to dune, though the value seems worth
 it.
 
+## Cram testing
+
+We have a small cram testing framework in dune that is really useful
+to write integration tests. There is also the
+[craml](https://github.com/ocaml/dune.wiki.git) project which might be
+a more polished version.
+
+Since this kind of testing would be useful in many projects, it would
+be nice to formalize them a bit more and make them easy to use in dune
+projects.
+
+We talked about having a light plugin system in Dune which would cover
+this. Though having something specific to cram tests might make sense
+anyway and would take less time to integrate.

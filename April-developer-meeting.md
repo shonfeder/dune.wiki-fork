@@ -37,3 +37,9 @@ projects.
 We talked about having a light plugin system in Dune which would cover
 this. Though having something specific to cram tests might make sense
 anyway and would take less time to integrate.
+
+## Testing in the CI
+
+what is the recommended way to run tests in the CI?
+
+Related to #2082.

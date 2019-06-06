@@ -120,7 +120,9 @@ compiler installed in their switch.  This has several consequences:
 Point 2 has been an issue in the past, for instance for the multicore
 project.  Point 1 means that if we continue like this, we will never
 be able to use language features that were added since OCaml 4.02 in
-Dune, which is sad.
+Dune, which is sad.  In particular, we would never be able to benefit
+from OCaml multicore inside Dune, which doesn't seem right given that
+Dune is a project that could really benefit from it.
 
 Technically, one can build Dune using OCaml 4.07 and use the resulting
 binary to build projects against OCaml 4.02.  We want to use this fact

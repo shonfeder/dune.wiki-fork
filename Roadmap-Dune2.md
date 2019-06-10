@@ -14,7 +14,10 @@ binary, which means that the `dune` and `jbuilder` packages will be
 co-installable.
 
 Projects with `(lang dune 1.x)` will still be fully supported by Dune
-2.x.
+2.x. At this point, we have no breaking changes planned for `(lang
+dune 2.x)` so the 2.x version of the Dune language will be the same as
+the 1.x version, except that things that were warnings in 1.x will be
+errors in 2.x.
 
 Finally, starting with 2.0.0 we are going to experiment with
 decoupling the version of OCaml required to build Dune itself and the

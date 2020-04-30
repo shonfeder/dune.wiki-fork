@@ -1,3 +1,5 @@
+This document is still a work in progress.
+
 Present at the meeting:
 
 - Andrey Mokhov (@snowleopard)
@@ -76,6 +78,48 @@ To be continued.
 ## Dune fmt
 
 We agreed that the pretty-printing of dune files should be versionned
-just like many other aspect of Dune. This mean that if one day we
+just like many other aspects of Dune. This mean that if one day we
 change the formatting of dune files, we will need to keep support for
-the old versionning.
+the old versionning. But given that the syntax of dune files is
+relatively simple, this should be manageable.
+
+A consequence of this is that the way dune files are formatter is a
+pure function of the dune language version. As a result, it doesn't
+matter whether we call the `dune` binary in the `PATH`, the current
+`dune` binary or even if we do the formatting in-process given that
+they will all behave the same.
+
+## Generalisation of bisect support
+
+Dune is gaining builtin support for `bisect_ppx`, a code coverage tool
+implemented via a ppx rewriter. Nicolás mentions that it would be nice
+if such support could be generalised to all ppx instrumentation tools.
+
+Everyone agrees.
+
+To do that, the first step is to look at how all these tools work and
+find what is the underlying general mode of operation. Jérémie asks
+Nicolás if he could look into it given his interest for `landmarks`.
+Nicolás makes no promise, but said he will try to look into it.
+
+## Fiberisation
+
+Rudi is still working on spreading the Fiber through the Dune code
+base, which is a necessary step for future exciting new features.
+
+## Coq
+
+TO FINISH
+
+- lot of porting to dune
+- call for beta tester
+- incrementality inside coq, pehars using dune
+  + isabelle does something similar
+  + apparently rust as well
+
+## intra-process timings reporting via eventlog format
+
+TO FINISH
+
+- ocaml 9082
+- Jérémie mention telemetry idea

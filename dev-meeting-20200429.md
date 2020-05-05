@@ -61,17 +61,17 @@ is a step towards using the dune distributed shared cache in Jenga.
 ## Language evolution
 
 Everyone agrees the dune language is evolving in ad-hoc ways without a
-clear direction, and some part are kind of out of control. This is
+clear direction, and some parts are kind of out of control. This is
 unlikely to change in the short/medium term, but we should think about
-giving a clear semantic to the language in the long term. This might
-require deeply changing some aspects of the language.
+giving a clear semantic and direction to the language in the long
+term. This might require deeply changing some aspects of the language.
 
-Since we were talking about the dune language, the JSON topic was
-brought up as expected. JSON as become a standard and using JSON would
-mean that we would benefit from existing tooling built around it.
-Jérémie is planning to generalise the Dune's parsing engine, which
-should give us a JSON syntax for free. However, the syntax of the
-action DSL will be pretty ugly. Variables might also be a bit messy.
+The JSON topic was also brought up. JSON as become a standard and
+using JSON would mean that we would benefit from existing tooling
+built around it.  Jérémie is planning to generalise the Dune's parsing
+engine, which should give us a JSON syntax for free. However, the
+syntax of the action DSL will be pretty ugly. Variables might also be
+a bit messy.
 
 To be continued.
 
@@ -109,17 +109,28 @@ base, which is a necessary step for future exciting new features.
 
 ## Coq
 
-TO FINISH
+Emilio tells us that a lot of Coq projects have been ported to Dune
+and that they will soon issue a call for Beta testers.
 
-- lot of porting to dune
-- call for beta tester
-- incrementality inside coq, pehars using dune
-  + isabelle does something similar
-  + apparently rust as well
+The Coq team is also interested in bringing incrementally right into
+the core of Coq, possibly reusing some of the technologies developed
+in Dune. Apparently, the Isabelle proof assisitant does something like
+this, and a few of us also heard that the Rust compiler is doing
+something similar as well.
 
-## intra-process timings reporting via eventlog format
+## intra-process timings reporting via catapult
 
-TO FINISH
+Dune has a `--trace-file` option to report various measurements via
+the catapult format. Recently, something similar was added to the
+compiler itself.
 
-- ocaml 9082
-- Jérémie mention telemetry idea
+Emilio mentions that it would be nice if `dune` could collect and such
+intra-process reports. To be continued
+[here](https://github.com/ocaml/dune/issues/3449).
+
+Jérémie also mentions that inside Jane Street there is a system called
+"Telemetry" to send various data from a process to a server that
+collects them for later analysis. The system has very low overhead and
+for instances sends the data via UDP packets. This is not a system we
+plan to export, but it could be nice to design something generic that
+could work with that.

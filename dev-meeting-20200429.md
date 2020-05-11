@@ -1,5 +1,3 @@
-This document is still a work in progress.
-
 Present at the meeting:
 
 - Andrey Mokhov (@snowleopard)

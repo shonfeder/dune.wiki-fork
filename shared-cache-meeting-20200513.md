@@ -9,7 +9,9 @@ Present at the meeting:
 
 Quentin started testing the distributed shared cache on RWO. With a
 fill distributed cache and no local shared cache, he is observing a
-45% speed up compared to a build from scratch with nothing in cache.
+45% speed up compared to a build from scratch with nothing in
+cache. There seems to be things being rebuilt un-necessarily, peharps
+because some rules depends on the universe in RWO.
 
 For this test, Quentin has been using a distributed cache located on a
 separte machine and talking to the local one via a WebDAV transport.

@@ -18,7 +18,8 @@ Here are the actual numbers:
 - with a full distributed cache and an empty local cache : time: 1:35.60 real  7:25.16 user  2:02.86 system (594%)
 - with a full local cache: time: 35.057 real  2:44.00 user  14.287 system (508%)
 
-That's a 45% boost with the remote cache, and 80% with the local cache (from a clean tree each time).
+That's -45% build time with the remote cache, and -80% with the local
+cache (from a clean tree each time).
 
 For this test, Quentin has been using a distributed cache located on a
 Docker container on the same physical machine. The communication

@@ -25,6 +25,11 @@ meeting:
 
 [Next dev meeting](dev-meeting-next)
 
+Sub-projects
+------------
+
+- [Distributed artifact cache](Distributed-Artifact-Cache)
+
 Old Roadmaps
 ------------
 

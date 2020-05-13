@@ -24,3 +24,9 @@ should we do about this?
 - https://github.com/ocaml/dune/issues/3467
 
 ### François sites and relocation PR
+
+### OCaml and Rust: Cargo and Dune Integration
+
+- Get Cargo rules into Dune so that it can invoke `cargo build` in a monorepo and know where the output artefacts are.
+- Discussion thread: https://discuss.ocaml.org/t/cargo-opam-packaging-of-a-rust-ocaml-project/5743/
+- https://github.com/zshipko/ocaml-rust-starter

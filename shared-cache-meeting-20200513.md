@@ -14,8 +14,10 @@ cache. There seems to be things being rebuilt un-necessarily, peharps
 because some rules depends on the universe in RWO.
 
 For this test, Quentin has been using a distributed cache located on a
-separte machine and talking to the local one via a WebDAV transport.
-Irmin is crashing in some cases and Quentin is going to investigate.
+Docker container on the same physical machine. The communication
+between the local cache daemon and the distributed one in the Docker
+container was done via WebDAV.  Irmin is crashing in some cases and
+Quentin is going to investigate.
 
 ## Protocol and metadata
 

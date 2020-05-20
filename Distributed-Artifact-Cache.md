@@ -4,4 +4,5 @@ Jane Street CI.
 
 Following are the notes from our weekly meetings:
 
+- [20/05/2020](shared-cache-meeting-20200520)
 - [13/05/2020](shared-cache-meeting-20200513)

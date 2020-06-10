@@ -14,3 +14,5 @@ Merging when CI is red
 - and an alternative proposal by @nojb focusing instead on
   enabling/disabling ppx rewriters:
   https://gist.github.com/nojb/6ee4e4046e8a8321faf0777d3e40efa3
+
+### Making vendor/ bootstrap only

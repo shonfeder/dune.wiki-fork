@@ -1,10 +1,10 @@
-# Present at the meeting:
+## Present at the meeting:
 Andrey Mokhov (@snowleopard)
 Arseniy Alekseyev (@aalekseyev)
 Jérémie Dimino (@jeremiedimino)
 Quentin Hocquet (@mefyl)
 
-# Discussions
+## Discussions
 
 Quentin has a working implementation of a protocol for hydra machine discovery, implemented using httpaf.
 

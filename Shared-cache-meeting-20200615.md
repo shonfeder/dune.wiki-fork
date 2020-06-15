@@ -1,8 +1,8 @@
 ## Present at the meeting:
 
-Andrey Mokhov (@snowleopard)
-Jérémie Dimino (@jeremiedimino)
-Quentin Hocquet (@mefyl)
+- Andrey Mokhov (@snowleopard)
+- Jérémie Dimino (@jeremiedimino)
+- Quentin Hocquet (@mefyl)
 
 ## Discussions
 

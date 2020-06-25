@@ -54,3 +54,5 @@ For example "writing a rule is annoying because of this problem" kind of feedbac
 ## Coq data
 
 Emilio did collect a list of people using Dune for Coq, it will eventually appear at https://github.com/ejgallego/coq-plugin-template .
+
+Lots of discussion among Coq devs about how to better support "Coq's native compilation" still didn't converge, but progress has been made.

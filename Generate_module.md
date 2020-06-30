@@ -1,5 +1,13 @@
 # Generate module for build info #
 
+Date: 30/06/2020
+
+Presents:
+
+- François Bobot (@bobot)
+- Jérémie Dimino (@jeremiedimino)
+- Ulysse Gérard (@voodoos)
+
 In PR #3104 (relocation) and PR #3523 (custom build info) both needs data to be passed from the build time to the execution time. With a generated module as API (PR #3104 solution) compared to a global table (solution used in PR #3523), the name of the data is statically verified by the compiler instead of having the lookup done dynamically. So the generated module API is prefered for the two cases.
 
 Still generating a module directly with the data is avoided because it disallows to share the cache in useful cases (e.g different working directory).

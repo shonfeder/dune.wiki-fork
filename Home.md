@@ -33,6 +33,11 @@ Sub-projects
 
 - [Distributed artifact cache](Distributed-Artifact-Cache)
 
+Side meetings
+-------------
+
+- [custom build info and relocation PR](Generate_module)
+
 Old Roadmaps
 ------------
 

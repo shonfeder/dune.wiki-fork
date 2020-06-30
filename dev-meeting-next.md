@@ -1,4 +1,9 @@
 ## Proposed discussion topics
 
-### Making vendor/ bootstrap only
+### flags for C/C++ compilation
 
+Should `:standard` include the flags given by `ocamlc -config`, or
+should these be included systematically?
+
+Our current behavior is different between C and C++, we should do
+better for `(lang dune 3.x)`

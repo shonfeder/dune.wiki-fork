@@ -1,7 +1,7 @@
 Present at the meeting:
 
     Andrey Mokhov (@snowleopard)
-    Arseniy Alekseyev (@arseniy)
+    Arseniy Alekseyev (@aalekseyev)
     Jeremie Dimino (@jeremie)
     Quentin Hocquet(@mefyl)
 

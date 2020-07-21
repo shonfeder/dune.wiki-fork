@@ -11,7 +11,7 @@
 * Added configuration file support to shard artifacts to multiple
   backend.
 
-## Andrei
+## Andrey
 
 * Working on talking to the cache daemon in Jenga.
 

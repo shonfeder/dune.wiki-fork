@@ -15,7 +15,7 @@
 * Add trimming.
 * Parse configuration file on the daemon side.
 
-## Andrei
+## Andrey
 
 * Implemented the Jenga side of the cache daemon protocol.
 

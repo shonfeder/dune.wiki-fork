@@ -3,7 +3,7 @@
 * Andrey Mokhov (@snowleopard)
 * Jérémie Dimino (@jeremiedimino)
 * Quentin Hocquet (@mefyl)
-* Arseniy Alekseyev (@arseniy)
+* Arseniy Alekseyev (@aalekseyev)
 
 # Work
 

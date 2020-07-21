@@ -21,10 +21,21 @@
 
 ## Need good story for Kerberos.
 
-On the server server-side we decided we'll try to use nginx, but the client will need to talk Kerberos directly.
+On the server-side we decided we'll try to use nginx, but the client will need to talk Kerberos directly.
 
 One way is to open-source Jane Street Kerberos stuff and use it in dune-cache
 
 Another is to have an abstract authentication layer in dune-cache which we fill in in Jane Street by replacing a module or applying a functor.
 
 Maybe it's possible to use an alternative Krb library, but that seems undesirable because of security concerns.
+
+# Async vs Lwt
+
+One challenge is that Krb library in JS is written with Async, not Lwt.
+
+If we're to use it, we will probably need to rewrite at least the shared-cache client to use Async.
+
+There's an async-lwt compatibility layer, but it's a big experimental project
+that's never been used in a real-life app, so it's scary to use it.
+
+We could also have a separate process that runs Async and communicates to Lwt, but that seems to make the client side overly complicated.

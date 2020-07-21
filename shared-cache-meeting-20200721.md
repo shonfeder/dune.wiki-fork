@@ -19,7 +19,7 @@
 
 # Discussions
 
-* Need good story for Kerberos.
+## Need good story for Kerberos.
 
 On the server server-side we decided we'll try to use nginx, but the client will need to talk Kerberos directly.
 

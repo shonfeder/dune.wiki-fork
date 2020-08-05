@@ -39,7 +39,7 @@ points out that Windows could stand to benefit from it even more.
 
 ## Customizations of inline test runner compilation
 
-@lubegasiumon is working on #766: to give the user more control over how
+@lubegasimon is working on #766: to give the user more control over how
 inline test runner binaries are compiled.
 
 ## Jane Street duniverse

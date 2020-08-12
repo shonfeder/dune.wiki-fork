@@ -3,7 +3,7 @@ artifact cache in Dune.  The initial goal is to make it work for the
 Jane Street CI.
 
 Following are the notes from our weekly meetings:
-
+- [12/08/2020](shared-cache-meeting-20200812)
 - [29/07/2020](shared-cache-meeting-20200729)
 - [21/07/2020](shared-cache-meeting-20200721)
 - [15/07/2020](shared-cache-meeting-20200715)

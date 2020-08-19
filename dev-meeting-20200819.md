@@ -12,8 +12,8 @@
 ## Dune Universe
 
 Andrey made a PR to move cryptokit to dune.
-xleroy asks to make improvements (a use of dune_configurator) and needs
-guidance.
+xleroy asks to make improvements (conditional C compiler flag).
+Andrey is looking for examples of how to use dune_configurator to achieve this.
 
 ## Build system API
 

@@ -6,7 +6,7 @@
 - Rudi Grinberg (@rgrinberg)
 - Francois Bobot (@bobot)
 - Nicolás Ojeda Bär (@nojb)
-- Emilio 
+- Emilio (@ejgallego)
 
 ## Watching Dune Github repository
 

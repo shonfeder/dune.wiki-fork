@@ -41,24 +41,27 @@
    - For Frama-c not blocking but dune file are generating, so need for multi-phase perhaps. @diml said that some cleanup is needed before working on that.
 
   @nojb:
-    - Lexify converted to dune
-    - but complication on copying files
-    - no variable in dune language, so need to share data using files but then it is dynamic
-    - More powerful language:
-       * pros: very useful
-       * cons: harder to have good error message
-       * cons: people keep complicated code instead of adding the right feature to dune
-       * to look at: https://github.com/dhall-lang/dhall-lang
+
+   - Lexify converted to dune
+   - but complication on copying files
+   - no variable in dune language, so need to share data using files but then it is dynamic
+   - More powerful language:
+      * pros: very useful
+      * cons: harder to have good error message
+      * cons: people keep complicated code instead of adding the right feature to dune
+      * to look at: https://github.com/dhall-lang/dhall-lang
  
   bundling, scoping in order to factorize for tests libraries, ppx, ... without leaking it to the exterior and without installing them
      - Having a more general `enable_if` stanza proposed by @rgrinberg ?
 
   @lubegasimon:
-    - color option
-    - flexibility to flags
+
+  - color option
+  - flexibility to flags
 
   @ejgallego:
-    - Try to simplify the different coq projet in order to find common way to do things.
-    - For coq, missing features: scope, ...
-    - Tell people use dune only for experimental until version 1.0 of coq lang.
-    - They will require in the future for people to use dune in order to be in the continuous tests
+
+  - Try to simplify the different coq projet in order to find common way to do things.
+  - For coq, missing features: scope, ...
+  - Tell people use dune only for experimental until version 1.0 of coq lang.
+  - They will require in the future for people to use dune in order to be in the continuous tests

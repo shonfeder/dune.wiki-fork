@@ -8,7 +8,7 @@
 
 * Not much progress made with vacations and the Jenga integration being stalled.
 * Andrey still diverted on other tasks, Jenga integration will resume later.
-* JS univers buildable by dune, will be the new reference benchmark.
+* JS universe buildable by dune, will be the new reference benchmark.
 * Kerberos should soon be open sourced.
 
 # Next steps

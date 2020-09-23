@@ -18,6 +18,9 @@
 
 # Next steps
 
-* Merge the Async branch.
-* Provide a lock file of the dependencies.
-* Fix Cohttp (and potentiall httpaf) to make connection keep-alive work and recheck performances.
+* Quentin
+  * Merge the Async branch.
+  * Provide a lock file of the dependencies.
+  * Fix Cohttp (and potentiall httpaf) to make connection keep-alive work and recheck performances.
+* Andrey
+  * Test again with the Async branch merged and the lock file

@@ -4,6 +4,7 @@ Dev meetings
 We have a video conference meeting between developers of Dune every
 two weeks.
 
+- [11/11/2020](dev-meeting-20201111)
 - [30/09/2020](dev-meeting-20200930)
 - [16/09/2020](dev-meeting-20200916)
 - [02/09/2020](dev-meeting-20200902)

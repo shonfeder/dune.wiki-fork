@@ -2,7 +2,12 @@ One of our current big project is adding support for a distributed
 artifact cache in Dune.  The initial goal is to make it work for the
 Jane Street CI.
 
-Following are the notes from our weekly meetings:
+# Bench
+
+Here are some [preliminary benches](shared-cache-bench) of the current performance gains.
+
+# Weekly meetings
+
 - [25/11/2020](shared-cache-meeting-20201125)
 - [18/11/2020](shared-cache-meeting-20201118)
 - [11/11/2020](shared-cache-meeting-20201111)

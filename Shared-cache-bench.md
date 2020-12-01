@@ -47,7 +47,7 @@ time: 1.857 real  1.649 user  0.203 system (99%)
 
 Bench while building [JS universe](https://github.com/janestreet/universe) revision .
 
-TLDR:
+TLDR: 105.5% - 51.3% - 5.3%
 
 ### Versions
 
@@ -60,6 +60,8 @@ TLDR:
 
 ```
 $ time DUNE_CACHE=disabled dune build
+Done: 47165/47168 (jobs: 1)
+time: 7:49.29 real  36:33.91 user  16:42.68 system (681%)
 $ time DUNE_CACHE=enabled dune build
 Done: 47165/47168 (jobs: 1)
 time: 8:15.76 real  36:48.42 user  17:31.04 system (657%)

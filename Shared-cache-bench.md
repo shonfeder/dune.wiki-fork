@@ -28,14 +28,18 @@ TLDR: 100.7% - 34.7% - 13.0%
 
 ```
 $ time DUNE_CACHE=disabled dune build                     
-Done: 5399/5402 (jobs: 1)time: 14.263 real  1:14.04 user  29.846 system (728%)
+Done: 5399/5402 (jobs: 1)
+time: 14.263 real  1:14.04 user  29.846 system (728%)
 $ time DUNE_CACHE=enabled dune build                             
-Done: 5399/5402 (jobs: 1)time: 14.374 real  1:13.91 user  29.339 system (718%)
+Done: 5399/5402 (jobs: 1)
+time: 14.374 real  1:13.91 user  29.339 system (718%)
 $ rm -rf _build ~/.cache/dune/db/{files,meta}/v3                 
 $ time DUNE_CACHE=enabled dune build            
-Done: 5382/5400 (jobs: 1)time: 4.961 real  4.694 user  3.699 system (169%)
+Done: 5382/5400 (jobs: 1)
+time: 4.961 real  4.694 user  3.699 system (169%)
 $ rm -rf _build                                 
 $ time DUNE_CACHE=enabled dune build
-Done: 0/0 (jobs: 1)time: 1.857 real  1.649 user  0.203 system (99%)
+Done: 0/0 (jobs: 1)
+time: 1.857 real  1.649 user  0.203 system (99%)
 ```
 

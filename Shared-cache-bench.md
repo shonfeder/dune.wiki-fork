@@ -45,7 +45,7 @@ time: 1.857 real  1.649 user  0.203 system (99%)
 
 ## JS universe
 
-Bench while building [JS universe](https://github.com/janestreet/universe) revision .
+Bench while building [JS universe](https://github.com/janestreet/universe) revision `b6cb56fdae83f5d55f9c809f1c2a2b50ea213126`.
 
 TLDR: 105.5% - 51.3% - 5.3%
 

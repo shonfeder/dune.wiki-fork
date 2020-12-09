@@ -47,3 +47,8 @@ To start getting some benefit from hints in the sequential case, we have the fol
   already know what the job `A` (which is currently running) is going to produce. So we can let
   it run to completion, but we can send the next hint without waiting for that completion.
   This doesn't require blocking jobs or cancelling jobs.
+
+Most of the above options require bidirectional communication between the build system and the
+daemon, which is undesirable. However, the timeout-based variant of the first option can be
+implemented without bidirectional communication. The build system can simply schedule build jobs
+after a short timeout, allowing the hint a chance to succeed.

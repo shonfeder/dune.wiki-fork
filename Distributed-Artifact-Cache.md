@@ -8,6 +8,7 @@ Here are some [preliminary benches](shared-cache-bench) of the current performan
 
 # Weekly meetings
 
+- [16/12/2020](shared-cache-meeting-20201216)
 - [09/12/2020](shared-cache-meeting-20201209)
 - [02/12/2020](shared-cache-meeting-20201202)
 - [25/11/2020](shared-cache-meeting-20201125)

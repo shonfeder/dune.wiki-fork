@@ -11,4 +11,4 @@ Since the previous meeting, Andrey implemented an internal distributed cache pro
 
 Once the internal development is complete, Jane Street plans to opensource the developed system and integrate it with Dune.
 
-We are going to stop weekly distributed cache meetings.
+We are stopping the weekly distributed cache meetings, so this is the last meeting.

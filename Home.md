@@ -1,8 +1,9 @@
 Dev meetings
 ------------
 
-We have a video conference meeting between developers of Dune every
-two weeks.
+We have a video conference meeting between developers of Dune every week. Every two weeks, we go over new github issues opened by user and discuss them. Every other week, someone does a presentation about an aspect of Dune or on a topic related to build systems followed by a discussion.
+
+[Schedule of presentations](schedule-of-presentations)
 
 - [11/11/2020](dev-meeting-20201111)
 - [30/09/2020](dev-meeting-20200930)

@@ -1,6 +1,6 @@
 - 20/01/2021: Rudi Grinberg will present his work on adding a RPC to Dune
 - 03/02/2021: Ulysse Gérard will present the custom-build-info feature
-- 17/02/2021: 
+- 17/02/2021: Etienne Millon will present yarn and jest
 - 03/03/2021:
 - 17/03/2021:
 - ...

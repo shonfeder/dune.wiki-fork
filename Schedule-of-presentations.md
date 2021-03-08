@@ -4,4 +4,5 @@
 - 03/03/2021:
 - 17/03/2021:
 - 31/03/2021: Jon Poole will present the https://please.build/ build system
+- 14/04/2021: Lubega Simon will present his work on odoc and Dune
 - ...

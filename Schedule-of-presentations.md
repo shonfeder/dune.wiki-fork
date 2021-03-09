@@ -2,7 +2,7 @@
 - 03/02/2021: Ulysse Gérard will present the custom-build-info feature
 - 17/02/2021: Etienne Millon will present yarn and jest
 - 03/03/2021:
-- 17/03/2021:
+- 17/03/2021: Rudi Grinberg will present pulp, spago, psc-package (PureScript's toolchain)
 - 31/03/2021: Jon Poole will present the https://please.build/ build system
 - 14/04/2021: Lubega Simon will present his work on odoc and Dune
 - ...

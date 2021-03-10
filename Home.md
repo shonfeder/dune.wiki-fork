@@ -35,6 +35,11 @@ meeting:
 
 [Next dev meeting](dev-meeting-next)
 
+Release Planning
+-----------------
+
+- [Plan for Dune 2.9](release-2-9)
+
 Sub-projects
 ------------
 

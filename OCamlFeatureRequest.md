@@ -17,3 +17,7 @@ It would be more straightforward to have an OCaml option `-Ihidden` which would 
 A fast code/compile/test is important for development, so Dune in development mode tries to keep this loop fast. Without dune people sometimes use the bytecode compiler during development because there is no dependencies between the compilation of `.cmo` and other `.cmo`, and by default there is a dependency between the compilation of a `.cmx` and other `.cmx`. Dune uses the `-opaque` option of the native compiler to achieve the same result. However then `[@inline:always]` on a call site of a function defined in the local repository will result in `warning 55` because the inlining can't be done since the `.cmx` is opaque.
 
 Even if it is clear that OCaml is needed to differentiate the cases of a real problem (missing `.cmx` of an installed library) and an artificial one (local library), no new local-level feature has been designed and proposed for this.
+
+### OCamldebug
+
+  OCamldebug could understand the mangling or at least propose possible files that contains the file name https://github.com/ocaml/dune/issues/4347 .

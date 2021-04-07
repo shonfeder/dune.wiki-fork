@@ -38,7 +38,7 @@ meeting:
 Release Planning
 -----------------
 
-- [Plan for Dune 2.9](release-2-9)
+- [Plan for Dune 2.9](Release-Plan-for-Dune-2.9)
 
 Sub-projects
 ------------

@@ -6,4 +6,4 @@
 - 31/03/2021: Jon Poole will present the https://please.build/ build system
 - 14/04/2021: Lubega Simon will present his work on odoc and Dune
 - 28/04/2021: Jeremie Dimino will present how to use Dune's new and shiny cores' API
-- ...
+- 12/05/2021: Thibaut Mattio will present spin https://github.com/tmattio/spin, an OCaml project generator

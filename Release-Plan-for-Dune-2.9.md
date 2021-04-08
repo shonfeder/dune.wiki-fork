@@ -17,3 +17,6 @@ In order to get a PR considered for 2.9 you should as PR author:
   + if you expect the PR to have non-trivial conflicts, open an updated PR against the 2.9 branch.
     It is very likely that this is the case due to https://github.com/ocaml/dune/pull/4314 having landed in `main`.
 
+## Things to check before release:
+
+- Changes section should be coherent between `main` and `2.9`

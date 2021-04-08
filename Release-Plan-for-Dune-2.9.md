@@ -2,21 +2,21 @@ Dune 2.9 will be the last release for the 2.x series. It is meant to be a bugfix
 
 A tentative release date is mid-May 2021.
 
-### Release process:
+2.9 will be almost exclusively consist of _backports_ of bugfixes / PRs already merged into `main`, except for the rare cases where the change has not a counterpart for `main`.
 
-2.9 will be almost exclusively consist of _backports_ of bugfixes / PRs merged into `main`, except for the rare cases where the change has not a counterpart for `main`.
+### Pull Request workflow:
 
-In order to get a PR considered for 2.9 you should as PR author:
+We will track pull requests scheduled for 2.9 using a Github Project, in particular: https://github.com/ocaml/dune/projects/3
 
-- submit a PR for `main`, get it merged, add the changelog under the 2.9 section of the `CHANGES` file, target the 2.9 milestone
-- once the PR is merged and the milestone confirmed, you can either:
-  + if you expect a backport to be "clean" (basically a `git apply`), add the PR to the "Dune 2.9 Backports" project, in the column "To Backport"
-    * we will try to backport the PR to 2.9 automatically, in case conflict resolution is too complex we will ask your help to perform the merge
-    * once the PR is backported, it will be pushed to a 2.9 CI-staging branch
-    * if CI succeeds, then the PR will be pushed to the main 2.9 branch
-  + if you expect the PR to have non-trivial conflicts, open an updated PR against the 2.9 branch.
-    It is very likely that this is the case due to https://github.com/ocaml/dune/pull/4314 having landed in `main`.
+Columns there are meant to track the lifetime of a PR, from its inclusion in main, to its release in 2.9.
 
-## Things to check before release:
+In order to get a PR included in 2.9 please:
+
+- submit a PR for `main`, but milestone `2.9`, and add it to the column "Pending Approval". The changelog should be added under the 2.9 section of the `CHANGES` file.
+- once the PR is merged in `main`, it will be moved to the "Pending Backport Column", please prepare a backported PR , but targeting the 2.9 branch.
+- once the backport PR is submitted, add the backport PR to the "Pending CI" column.
+- once CI is ready, the 2.9 Release Managers will merge the PR.
+
+## Things to check before the release:
 
 - Changes section should be coherent between `main` and `2.9`

@@ -1,4 +1,4 @@
-Dune 2.9 will be the last release for the 2.x series. It is meant to be a bugfix and minimal feature set release, such as improvements to RPC to Coq modes.
+Dune 2.9 will be the last release for the 2.x series. It is meant to be a bugfix and minimal feature set release, such as improvements to editor support or Coq build rules.
 
 A tentative release date is mid-May 2021.
 

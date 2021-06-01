@@ -7,3 +7,4 @@
 - 14/04/2021: Lubega Simon will present his work on odoc and Dune
 - 12/05/2021: Thibaut Mattio will present spin https://github.com/tmattio/spin, an OCaml project generator
 - 26/05/2021: Jeremie Dimino will present how to use Dune's new and shiny cores' API
+- 09/06/2021: Gargi Sharma will present [current-bench](https://github.com/ocurrent/current-bench), the system we use to benchmark Dune

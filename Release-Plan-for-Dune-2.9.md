@@ -1,6 +1,8 @@
 Dune 2.9 will be the last release for the 2.x series. It is meant to be a bugfix and minimal feature set release, such as improvements to editor support or Coq build rules.
 
-A tentative release date is mid-May 2021.
+The release schedule is as follows:
+- June 11th 2021: last day to submit PRs targeting the 2.9 milestone
+- June 18th 2021: release day
 
 2.9 will be almost exclusively consist of _backports_ of bugfixes / PRs already merged into `main`, except for the rare cases where the change has not a counterpart for `main`.
 

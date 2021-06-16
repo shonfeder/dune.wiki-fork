@@ -6,6 +6,15 @@ The release schedule is as follows:
 
 2.9 will be almost exclusively consist of _backports_ of bugfixes / PRs already merged into `main`, except for the rare cases where the change has not a counterpart for `main`.
 
+### Issues / bugs that can be considered for the 2.9.x series:
+
+- https://github.com/ocaml/dune/issues/4723
+  [[install] dune install seems to lack enough configuration options as to accommodate Linux's FSH]
+- https://github.com/ocaml/dune/issues/4553
+  [--release for pure Coq code affects flags and triggers rebuild]
+- https://github.com/ocaml/dune/pull/4566
+  [Add test case for coq + env]
+
 ### Pull Request workflow:
 
 We will track pull requests scheduled for 2.9 using a Github Project, in particular: https://github.com/ocaml/dune/projects/3
@@ -22,3 +31,4 @@ In order to get a PR included in 2.9 please:
 ## Things to check before the release:
 
 - Changes section should be coherent between `main` and `2.9`
+- Sanity check for features that are new to dune lang 2.9 , this can be done with a bit of grep on `Syntax.` etc...

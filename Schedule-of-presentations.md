@@ -8,3 +8,4 @@
 - 12/05/2021: Thibaut Mattio will present spin https://github.com/tmattio/spin, an OCaml project generator
 - 26/05/2021: Jeremie Dimino will present how to use Dune's new and shiny cores' API
 - 09/06/2021: Gargi Sharma and Rizo Isrof will present [current-bench](https://github.com/ocurrent/current-bench), the system we use to benchmark Dune
+- 01/09/2021: Rudi Grinberg will present the Dune plugin for VSCode

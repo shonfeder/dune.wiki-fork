@@ -10,3 +10,4 @@
 - 09/06/2021: Gargi Sharma and Rizo Isrof will present [current-bench](https://github.com/ocurrent/current-bench), the system we use to benchmark Dune
 - 01/09/2021: Rudi Grinberg will present the Dune plugin for VSCode
 - 13/10/2021: Andrey Mokhov will give a talk about some cool aspects of Memo's implementation, including the new faster cycle detection algorithm
+- 27/10/2021: All and Rudi Grinberg, Discussion: How can we dynamically add new targets? How can we gather the errors of dependencies of a target?

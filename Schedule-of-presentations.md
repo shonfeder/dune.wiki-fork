@@ -11,3 +11,4 @@
 - 01/09/2021: Rudi Grinberg will present the Dune plugin for VSCode
 - 13/10/2021: Andrey Mokhov will give a talk about some cool aspects of Memo's implementation, including the new faster cycle detection algorithm
 - 27/10/2021: All and Rudi Grinberg, Discussion: How can we dynamically add new targets? How can we gather the errors of dependencies of a target?
+- 19/01/2022: Charlie Curtsinger and Daniel Barowy (authors of [LaForge](https://arxiv.org/abs/2108.12469)) will give a talk "Riker: Don't make, Make it so"

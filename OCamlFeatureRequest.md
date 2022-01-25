@@ -21,3 +21,7 @@ Even if it is clear that OCaml is needed to differentiate the cases of a real pr
 ### OCamldebug
 
   OCamldebug could understand the mangling or at least propose possible files that contains the file name https://github.com/ocaml/dune/issues/4347 .
+
+### Separate output
+
+Separate warning and error output? or machine readable warning error output? (but we already have a parser for them)

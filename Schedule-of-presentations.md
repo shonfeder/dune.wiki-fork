@@ -12,4 +12,5 @@
 - 13/10/2021: Andrey Mokhov will give a talk about some cool aspects of Memo's implementation, including the new faster cycle detection algorithm
 - 24/11/2021: All and Rudi Grinberg, Discussion: How can we dynamically add new targets? How can we gather the errors of dependencies of a target?
 - 24/11/2021: François Bobot, Discussion: The different steps of the parsing of Dune files ( Sub-dir, data-dirs, dune generated files).
+- 02/02/2022: (Idea of discussion?): What feature dune needs from the compiler (i.e https://github.com/ocaml/dune/wiki/OCamlFeatureRequest)
 - 16/02/2022: Charlie Curtsinger and Daniel Barowy (authors of [LaForge](https://arxiv.org/abs/2108.12469)) will give a talk "Riker: Don't make, Make it so"

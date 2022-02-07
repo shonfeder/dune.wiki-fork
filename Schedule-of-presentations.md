@@ -1,3 +1,5 @@
+Presentation are on Wednesdays, 16:00 UK time.
+
 - 20/01/2021: Rudi Grinberg will present his work on adding a RPC to Dune
 - 03/02/2021: Ulysse Gérard will present the custom-build-info feature
 - 17/02/2021: Etienne Millon will present yarn and jest

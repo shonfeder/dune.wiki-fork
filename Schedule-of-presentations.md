@@ -2,7 +2,24 @@ Presentation are on Wednesdays (alternating with Dune meetings), 16:00 UK time.
 
 ## 2022 (reverse chronological order)
 
-- 28/09/2022: Makarius Wenzel: "Isabelle Build"
+- 28/09/2022: Makarius Wenzel: "Isabelle as a build tool for Isabelle"
+  > Isabelle as build tool for Isabelle
+  >
+  > The tooling for Isabelle is always Isabelle itself. The system has a
+  > mathematical world: Isabelle/ML for functional programming and
+  > symbolic logic; its applications are called "sessions" and either
+  > built implicitly on demand or explicitly via "isabelle build" on the
+  > command-line. The result is a heap file and a session database (SQLite
+  > or PostGreSQL), it includes HTML and LaTeX presentation information or
+  > other export artifacts.
+  >
+  > Then, there is a physical world: Isabelle/Scala for system management,
+  > server connections, and interaction with the user via the Prover IDE,
+  > e.g. Isabelle/jEdit or Isabelle/VSCode. System components are built
+  > implicitly on demand or explicitly via "isabelle scala_build". That is
+  > based on pure Java, to simplify the bootstrap process of
+  > everything. Its own build process is managed by a plain shell script,
+  > without fancy (complex, unstable) build tools for Java.
 - 16/03/2022: Charlie Curtsinger and Daniel Barowy (authors of [LaForge](https://arxiv.org/abs/2108.12469)) will give a talk "Riker: Don't make, Make it so"
 - 02/02/2022: François Bobot: `implicit_transitive_deps` past and possible futurs
 

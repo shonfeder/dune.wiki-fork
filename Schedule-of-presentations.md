@@ -4,7 +4,7 @@ Presentation are on Wednesdays (alternating with Dune meetings), 16:00 UK time.
 
 - 28/09/2022: Makarius Wenzel: "Isabelle as a build tool for Isabelle"
   + Jitsi link: https://rendez-vous.renater.fr/isa-build
-  + Slides: 
+  + Slides: https://files.sketis.net/Isabelle_Build_2022.pdf
   + Abstract:
   > Isabelle as build tool for Isabelle
   >

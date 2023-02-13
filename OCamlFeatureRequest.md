@@ -8,6 +8,8 @@ It is important to link the high-level request which leads to a needed low-level
 
 ### Hide libraries from the user
 
+Send as RFC in https://github.com/ocaml/RFCs/pull/31
+
 For implementing non transitive deps (the user can use only the listed dependencies and not their dependencies), or hiding the interface of some modules: dune needs to hide `.cmi` files from the compiler, but still show `.cmx` files. For Dune defined libraries, Dune plays split the files in multiple directories to use `-I` to show only some. However it is not possible for non-Dune defined libraries, it is not clear that the OCaml typer will always accept to hide interface used by visible interface.
 
 It would be more straightforward to have an OCaml option `-Ihidden` which would add a directory for lookup, but without adding type information for typing the user code.
@@ -25,3 +27,7 @@ Even if it is clear that OCaml is needed to differentiate the cases of a real pr
 ### Separate output
 
 Separate warning and error output? or machine readable warning error output? (but we already have a parser for them)
+
+### Dynlink in Toplevel
+
+Dynlink is forbidden in the toplevel, load through compilers_lib is necessary. It would be cleaner if the dynlink API could be used transparently. Perhaps Dynlink could have a specific version for the toplevel.

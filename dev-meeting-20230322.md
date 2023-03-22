@@ -28,5 +28,6 @@ Present: @alizter @ejgallego @emillon @nojb @rgrinberg
 - performance of dune builds with coq (hott) https://github.com/HoTT/Coq-HoTT/pull/1687
 - flake.nix - using opam-nix vs nixpkgs
 - `let=` performance
+  - Ali: We can write pretty things but how can we optimize them if they are slow? (can we ppx?)
   - do the pretty thing by default, if this shows up in perf reports switch to the optimized one
   - it's impossible to use ppx in dune

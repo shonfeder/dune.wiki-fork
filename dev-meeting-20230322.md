@@ -1,3 +1,32 @@
-agenda
+Present: @alizter @ejgallego @emillon @nojb @rgrinberg 
+
 - meeting notes
-- ...
+  - some teams (opam) are putting notes on wiki and happy with that
+  - we used to do that, then switch to a google docs, then stopped
+  - let's try to resume that effort
+  - @emillon to take notes by default for now
+- #7376 - cinaps confused by symlinks
+- release process
+  - should we release on main (as previously done) or off a branch (like ocaml/ocaml)
+  - Rudi: this should not disrupt development of new features. it looked difficult for ocaml/ocaml
+  - Ali: coq releases off a branch and backporting is difficult
+  - Etienne: we can try as we did before (main) but by communicating the "freeze" (not the right word maybe) date more in advance
+  - tentative date: 2023-04-19 (t+4 weeks) so that the pace corresponds to the last releases
+- source fetching
+  - concerns about vendoring parts of opam
+  - this is a lot of code (could have been reimplemented) but will need this for integration with rest of opam (solver etc)
+  - some code in the opam libs can be removed
+  - discussion about solvers and why they're needed
+  - can we improve on opam? (MVS, allowing several versions of a lib) - maybe we can do that but later
+- doc effort
+  - meta-pages have been split
+  - now documenting where contents should be recycled
+  - once done, can process document per document
+  - new content is also written (ex: the ocaml ecosystem)
+  - once we get the hang of it, this can be parallelized with interested people
+  - README improved too
+- performance of dune builds with coq (hott)
+- flake.nix - using opam-nix vs nixpkgs
+- `let=` performance
+  - do the pretty thing by default, if this shows up in perf reports switch to the optimized one
+  - it's impossible to use ppx in dune

@@ -25,7 +25,7 @@ Present: @alizter @ejgallego @emillon @nojb @rgrinberg
   - new content is also written (ex: the ocaml ecosystem)
   - once we get the hang of it, this can be parallelized with interested people
   - README improved too
-- performance of dune builds with coq (hott)
+- performance of dune builds with coq (hott) https://github.com/HoTT/Coq-HoTT/pull/1687
 - flake.nix - using opam-nix vs nixpkgs
 - `let=` performance
   - do the pretty thing by default, if this shows up in perf reports switch to the optimized one

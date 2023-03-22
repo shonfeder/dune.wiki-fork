@@ -1,0 +1,5 @@
+- @jonahbeckford presented an integration between Dune and cmake
+- lexifi and ocamlpro are looking for a way to improve the granularity of dependencies between libraries (at the module level rather than at the library level)
+- doc structure:
+  - @emillon to write a plan about how to proceed
+  - missing docs: tutorial (for users too, not just authors), explanation how it works (why does it rebuild)

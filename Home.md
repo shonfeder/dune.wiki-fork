@@ -56,3 +56,8 @@ Old Roadmaps
 ------------
 
 [Roadmap for Dune 2.0.0 (July 2019)](Roadmap-Dune2)
+
+Whiteboards
+-----------
+
+[Specs for building opam packages]([WIP]-Specs-for-building-opam-packages)

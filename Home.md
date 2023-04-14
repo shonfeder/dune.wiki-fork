@@ -5,6 +5,7 @@ We have a video conference meeting between developers of Dune every week. Every 
 
 [Schedule of presentations](schedule-of-presentations)
 
+- [19/04/2023](dev-meeting-20230419)
 - [05/04/2023](dev-meeting-20230405)
 - [22/03/2023](dev-meeting-20230322)
 - [08/03/2023](dev-meeting-20230308)

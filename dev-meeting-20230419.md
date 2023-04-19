@@ -1,5 +1,23 @@
-Agenda
+Here: @alizter @anmonteiro @arozovyk @emillon @lthls @lubegasimon @nojb @rgrinberg @rikusilvola
 
-- 3.8 regression check
+- melange
+  - melange is tied to 4.14 for now but plans to stay in sync with the compiler
+  - it can be moved to its own CI job so that we can test the rest with 5.1
+  - to run the melange test suite, Rudi suggests attaching to a special alias rather than using `enabled_if`
+  - can be released in 3.8, but under 0.1 or 1.0?
+    - those have different requirements since we're supporting 1.x even after 2.0 is out
 - adapting the meeting schedule to Australia, Europe, US west coast
-- melange and OCaml versions: how to move Dune tests to 5.x, Melange support for 4.14, https://github.com/ocaml/dune/pull/7330
+  - we'll run next meeting at a time that works for Europe and Australia. Tentative schedule is to switch between the two at each meeting. Can schedule more meetings if necessary.
+- 3.8 status
+  - alpha1 submitted as is to opam-repo-ci: no regressions (but only shallow ones can be found like this - trickier regressions happen as people update to `(lang dune 3.8)`)
+  - milestone check:
+    - nix signing has two similar implementations: https://github.com/ocaml/dune/pull/6975 and https://github.com/ocaml/dune/pull/7183
+    - #7026 - Rudi will add a warning if he has time but this could be postponed
+    - #7047 - waiting for review
+    - #4244 - waiting for review
+    - #7376 (cinaps symlinks). maybe cinaps itself uses `realpath` or something that breaks with symlinks. Ali will try with hardlinks.
+    - #6865 (menhir explain). Rudi suggest adding the explain file as a target.
+    - #7419 (dune install -p). This has been broken for a long time and is not a regression. Moving off `Common.term` is a good idea. There's a risk of removing a used option (due to globals) but we can take it. Rather than merge the partial fix we can leave it off the milestone and ship a proper fix.
+    - #7373 - basically done. Melange will need this
+    - #7364 (odoc support dir). using `.odoc_support` sounds good, as it should prevent conflicts with user content and be included in github pages. Rudi notes that we could create a `_build/doc/<context>` directory like we do for install, and remove leading underscores from some directories. 
+  - docs situation: we're halfway through the migration so the table of contents is not super pretty but this can be fixed by adding some temporary headers for the release. https://github.com/ocaml/dune/issues/7584 created for this.

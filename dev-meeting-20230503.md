@@ -1,0 +1,19 @@
+- 3.8.0 milestone check
+    - rpc on windows -> ready to merge
+    - odoc: ready to merge
+    - menhir: Etienne to have a look
+    - coq: need to ask Ali
+    - instrumentation for merlin: seems ready
+- 3.8.0 release
+    - have a second alpha run with menhir fix merged in
+    - calendar: look for regressions, release as soon as milestone clear + any regressions fixed
+- lock file format: file or directory?
+    - directories make it easier to diff, are trickier to track with git, and directories with many files can have issues on windows
+    - seems the only counterargument to files is diffing but that can be alleviated by sorting the lockfile
+    - yarn fixes conflicts automatically (interprets conflicts markers), this is neat but can be done way later
+    - discuss these points with Rudi on the PR
+- lock files use cases
+    - for libraries vs executables
+    - depopts for an executable: should they be recorded
+    - features / `USE` / package variables - how are these used?
+    - sharing lock files depending on platforms / ocaml versions / base versions

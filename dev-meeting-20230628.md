@@ -1,0 +1,3 @@
+- (Ali) new benchmarking metrics that I've added in [#8063](https://github.com/ocaml/dune/pull/8063).
+- (Etienne) update on release process
+- (Etienne) dune-build-info and vendored dirs #8025

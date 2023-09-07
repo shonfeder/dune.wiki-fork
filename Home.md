@@ -20,14 +20,6 @@ We have a video conference meeting between developers of Dune every week. Every 
 
 [Dev meeting archive](dev-meeting-archive)
 
-Next meeting
-------------
-
-You can add discussion topics by pushing to the page for the next
-meeting:
-
-[Next dev meeting](dev-meeting-next)
-
 Release Planning
 -----------------
 

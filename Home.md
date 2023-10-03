@@ -25,6 +25,7 @@ We have a video conference meeting between developers of Dune every week. Every 
 Release Planning
 -----------------
 
+- [Release Process](Release-process)
 - [Plan for Dune 2.9](Release-Plan-for-Dune-2.9)
 
 Sub-projects

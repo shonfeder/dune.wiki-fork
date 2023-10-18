@@ -1,7 +1,7 @@
 present: [@Alizter](/Alizter), [@Leonidas-from-XIV](/Leonidas-from-XIV), [@rjbou](/rjbou), [@rikusilvola](/rikusilvola)
 
 * Dune opinionated: should we change the headline to something else?
-  * ocaml/dune#850
+  * [ocaml/dune#850](/ocaml/dune/pull/8850)
   * Pros: 
     * Concerns about this scaring away people - is this really a selling point?
     * Could still be mentioned later in the docs!
@@ -12,7 +12,7 @@ present: [@Alizter](/Alizter), [@Leonidas-from-XIV](/Leonidas-from-XIV), [@rjbou
   * To be discussed further on the issue and on Slack
 
 * Dune pkg not working with Zarith
-  * ocaml/dune#8931
+  * [ocaml/dune#8931](/ocaml/dune/issues/8931)
   * Issue with use of `ocamlfind install` not working
   * Widely used package that needs to be supported
   * Rather not maintain an overlay, or a workaround in Dune itself (increasing toil)

@@ -1,4 +1,4 @@
-present: @Alizter, @Leonidas-from-XIV, @rjbou, @rikusilvola
+present: [@Alizter](/Alizter), [@Leonidas-from-XIV](/Leonidas-from-XIV), [@rjbou](/rjbou), [@rikusilvola](/rikusilvola)
 
 * Dune opinionated: should we change the headline to something else?
   * ocaml/dune#850

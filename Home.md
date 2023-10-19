@@ -10,6 +10,8 @@ To accomodate users in various time zones, we have 2 alternating slots: one that
 - 2023 W44, W48, ...: 17:00-18:00 Paris time
 - 2023 W45, W49, ...: no meeting
 
+[Zoom link](https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09)
+
 (lost? [you can import an ics file in your calendar](meeting-ics))
 
 ### Minutes

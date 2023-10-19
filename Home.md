@@ -1,9 +1,18 @@
 Dev meetings
 ------------
 
-We have a video conference meeting between developers of Dune every week. Every two weeks, we go over new github issues opened by user and discuss them. Every other week, someone does a presentation about an aspect of Dune or on a topic related to build systems followed by a discussion.
+### Schedule
 
-[Schedule of presentations](schedule-of-presentations)
+To accomodate users in various time zones, we have 2 alternating slots: one that should work for GMT-xxx and one for GMT+xxx. These happen every other week, so we have a schedule with a 4-week period:
+
+- 2023 W42, W46, ...: 10:00-11:00 Paris time
+- 2023 W43, W47, ...: no meeting
+- 2023 W44, W48, ...: 17:00-18:00 Paris time
+- 2023 W45, W49, ...: no meeting
+
+(lost? [meeting-ics](you can import an ics file in your calendar))
+
+### Minutes
 
 - [2023-10-18](dev-meeting-20231018)
 - [2023-09-20](dev-meeting-20230920)
@@ -22,6 +31,7 @@ We have a video conference meeting between developers of Dune every week. Every 
 - [2023-03-08](dev-meeting-20230308)
 
 [Dev meeting archive](dev-meeting-archive)
+[Schedule of presentations](schedule-of-presentations)
 
 Release Planning
 -----------------

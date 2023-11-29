@@ -16,6 +16,6 @@
 - examples in the rst docs serve a similar purpose
 - @emillon to write docs about cram tests
 
-## [Specify branches for repos](https://github.com/ocaml/dune/pull/9241) (@Leonidas-from-XIV)
+## [Specifying branches for repos](https://github.com/ocaml/dune/pull/9241) (@Leonidas-from-XIV)
 - there's an ambiguity if a name like a branch is passed: to resolve it, it is necessary to connect to the git repo
 - when name is a branch or tag, a call to the network is expected (and lockfile will record just commit)

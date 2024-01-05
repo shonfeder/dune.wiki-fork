@@ -15,14 +15,13 @@ gitGraph
   commit id: "feat(1)"
   commit id: "feat(2)"
   commit id: "feat(3)"
-  branch "x.y-0~alpha"
+  branch "x.y"
   commit tag: "x.y.0~alpha1"
   checkout main
   commit id: "fix(1)"
-  checkout "x.y-0~alpha"
+  checkout "x.y"
   cherry-pick id: "fix(1)"
   commit tag: "x.y.0~alpha2"
-  checkout main
   commit tag: "x.y.0"
 ```
 
@@ -38,7 +37,7 @@ stateDiagram-v2
 ```
 
 - Prepare:
-  - Open tracking issue with expected alpha1 date
+  - Open tracking issue with expected branching date
   - List (and update) known blockers. These prevent releasing `x.y.0`
   - Add "All x.y.z changelogs merged" as blocker
   - Add "Mirage test" as blocker (manual workflow should be triggered on a
@@ -46,8 +45,7 @@ stateDiagram-v2
 
 - Alpha time:
   - Branch setup:
-    - (for N=0) create `x.y.0~alpha` branch
-    - (for N>1) merge main into alpha branch
+    - (for N=0) create `x.y` branch
   - Prepare alpha release:
     - cherry-pick extra commits from `main` (if any)
     - prepare changelog (ensure version is `x.y.0~alphaN`)
@@ -62,7 +60,8 @@ stateDiagram-v2
   - Mark alpha PR as closed
 
 - Release time:
-  - On main, prepare changelog (compile entries, set header with version)
+  - check versioned behaviors are relative to x.y
+  - On release branch, prepare changelog (merge alpha entries, set header with version)
   - Open a PR `prepare-x.y.0`
   - Self-merge
   - `make opam-release` from updated main

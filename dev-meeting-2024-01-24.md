@@ -1,4 +1,4 @@
-Present: @rgrinberg @Leonidas-from-XIV @moyodiallo @ElectreAAS Maxim Grankin, Boning Dong
+Present: @rgrinberg @Leonidas-from-XIV @moyodiallo @ElectreAAS Maxim Grankin, @bn-d
 
 * Changes to `install` in 3.11, Maxim
   - In 3.11 we deprecated installing to parent directories (`../`)
@@ -6,7 +6,7 @@ Present: @rgrinberg @Leonidas-from-XIV @moyodiallo @ElectreAAS Maxim Grankin, Bo
   - As an alternative to this, can new `sections` be added?
     - `sections` are mostly inherited from OPAM, for compatibility
     - Files can be installed in the prefix root (`dune install --prefix=DIR`)
-    - New sections with a flag as guard welcome to be submitted as PR
+    - New sections with a flag as guard welcome to be submitted as PR (issue describing the approach: [#9832](https://github.com/ocaml/dune/issues/9832))
 
 * Submodule support (@Leonidas-from-XIV)
   - Submitted

@@ -34,5 +34,5 @@ Present: @rgrinberg @Leonidas-from-XIV @moyodiallo @ElectreAAS Maxim Grankin, Bo
   - The solver would give us a package + version and to determine which repo it was from we would need to search for it
   - This could potentially create issues where the package we find and the package the solver wanted are different if name + version are the same
   - @rgrinberg fixed this by never giving passing the solver the same name + version twice
-  - OPAM behavior in this case is unspecified
+  - OPAM behavior is identical in this case (verified in a later discussion with @kit-ty-kate)
   - It would be nice to have a test to check this behavior 

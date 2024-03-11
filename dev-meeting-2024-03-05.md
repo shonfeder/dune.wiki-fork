@@ -10,7 +10,7 @@ Present:
 - refs: [#10170](https://github.com/ocaml/dune/pull/10170), [#10179](https://github.com/ocaml/dune/pull/10179)
 - Javier did a presentation of what he's trying to achieve (cf linked PRs).
 - Design makes sense but this needs work to delay some checks.
-- Javier ill post a description of the problem as a new issue
+- Javier will post a description of the problem as a new issue
 
 ### Recursive aliases in vendored dirs (@rgrinberg)
 - ref: [#10144](https://github.com/ocaml/dune/issues/10144)

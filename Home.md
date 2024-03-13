@@ -16,7 +16,7 @@ To accomodate users in various time zones, we have 2 alternating slots: one that
 
 ### Minutes
 
-- [2024-03-19](dev-meeting-2024-03-19)
+- [2024-03-20](dev-meeting-2024-03-20)
 - [2024-03-05](dev-meeting-2024-03-05)
 - [2024-02-21](dev-meeting-2024-02-21)
 - [2024-02-07](dev-meeting-2024-02-07)

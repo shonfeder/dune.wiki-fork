@@ -12,7 +12,7 @@ To accommodate users in various time zones, we have 2 alternating slots: one tha
 
 [Zoom link](https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09)
 
-(lost? [you can import an ics file in your calendar](meeting-ics))
+Still confused? Here's the link to the [public calendar](https://calendar.google.com/calendar/embed?src=c_5cd698df6784e385b1cdcdc1dbca18c061faa96959a04781566d304dc9ec7319%40group.calendar.google.com) that can be imported to your calendar.
 
 ### Minutes
 

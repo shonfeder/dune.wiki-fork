@@ -5,7 +5,7 @@ Present: @Leonidas-from-XIV @leostera @nojb @maxRN Lucas M.
 - We plan to introduce some mechanisms that are opt-in because they're not compatible with opam workflows
 - For this we want to have extra configuration flags
 - The idea is that they use the existing Dune Config mechanism but the defaults would be changed at build-time
-- Draft PR: [#10724]https://github.com/ocaml/dune/pull/10724)
+- Draft PR: [#10724](https://github.com/ocaml/dune/pull/10724)
 - @nojb: Can't this be configured by Dune Workspace?
 - @leostera: The idea is that this would prepare for an opam-less workflow where users download a Dune binary and that will have all the configuration out of the box.
 

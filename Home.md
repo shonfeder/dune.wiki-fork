@@ -16,6 +16,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes
 
+- [2024-08-21](dev-meeting-2024-08-21)
 - [2024-08-07](dev-meeting-2024-08-07)
 - [2024-07-24](dev-meeting-2024-07-24)
 - [2024-07-10](dev-meeting-2024-07-10)

@@ -6,7 +6,7 @@ Attendees: @maiste @Leonidas-from-XIV @moyodiallo @lostera
 - Discuss assessing some Terminologies: `dune-projects`, `dev-tool`, `dev-tools`.
 - Auto re-locking: reminder about the blockers and if there are some possible solutions.
 
-## Dev Team Calls (Leandro)
+## Dev Team Calls (@leostera)
 
 - We should make sure that everyone is onboard wrt to the proper time of the call
 - The old invite (with the old time) has been deleted now, to avoid confusion

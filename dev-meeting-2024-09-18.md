@@ -18,17 +18,21 @@ Attendees: @gridbugs @maiste @Leonidas-from-XIV @rgrinberg @moyodiallo
 - Dune cache was disabled by default, so we assume most people did not use it
 - Enables us to go through the rules incrementally and mark those that are safe
 - `enable-user-rules` in `dune-workspace` could be a good compromise for those that can't set an environment variable
+- having a configuration in `~/.config/dune` could work too
 
 ## `dune pkg add` (@maiste)
 
 - The interviews say that people want `dune pkg add`?
 - It could be done by editing `dune-project`, pretty printing it and promoting the new file
+- It requires to fix pretty printing first
 - Still that would not make it work for most people as they have to add the dependency to their `dune` files
 - We could add the package to all `dune` files but that would make the build slower
+- It can make sense in the context of the `dune` easy mode
 - We could also go backwards from `dune` files which fully qualify a library (`<opam-pkg>.<meta-name>`)
+- Using the auto promote mechanism to update the `dune-project` according to the `dune` files associated with a package
 - How do we know which package a dependency goes to and where does it go when it is not part of a public package
 - We should have non-public packages, existing projects like Yojson have dummy-opam files for that reason
-- Maybe the better thing would be to have better editor integration, e.g via a Dune LSP
+- Maybe the better thing would be to have better editor integration for `dune*` files, e.g via a Dune LSP
 
 ## `fmt` issue (@moyodiallo)
 

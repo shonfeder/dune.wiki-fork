@@ -4,6 +4,8 @@
 
 # Minutes
 
+Attendees: @gridbugs @ManasJayanth @maiste @moyodiallo @ElectreAAS @rgrinberg @Leonidas-from-XIV
+
 - organizing the backlog of issues in ocaml/dune
   - we have many issues open, several possibly overlapping
   - should we take some time to pass over all the issues and see if any can be closed?

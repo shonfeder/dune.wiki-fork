@@ -1,5 +1,8 @@
 # Agenda
 
+- Proposal to rename "lockdirs" to "solution caches" and introduce a new "lockfile" which contains the inputs to the solver (cf below)
+- Is there a way to define a true alias without having to insert it in a 
+
 ## Proposal to rename "lockdirs" to "solution caches" and introduce a new "lockfile" which contains the inputs to the solver
 
 The specific function of lockdirs is to cache the packaging solution so that it doesn't need to be computed on each build. On a given machine, the package solution is a pure function of its inputs, so the only reason to cache it is performance; if solving was instant there would be no need for a lockdir. Hence I propose we rename them to "solution caches" to more accurately reflect their purpose to users. Rather than "dune.lock", put it in "dune.solution-cache" or something. The benefit is it would better communicate to users the purpose of the lockdir so they can make a more informed decision about whether to check it into their project, what the consequences are of deleting it are, etc.

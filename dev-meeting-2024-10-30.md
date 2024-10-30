@@ -1,7 +1,8 @@
 # Agenda
 
 - Proposal to rename "lockdirs" to "solution caches" and introduce a new "lockfile" which contains the inputs to the solver (cf below)
-- Is there a way to define a true alias without having to insert it in a 
+- Is there a way to define a true alias without having to insert it in a rule?
+- Release 3.16.1
 
 ## Proposal to rename "lockdirs" to "solution caches" and introduce a new "lockfile" which contains the inputs to the solver
 

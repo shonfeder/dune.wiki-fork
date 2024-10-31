@@ -3,7 +3,11 @@
 - Release 3.16.1
 - Is there a way to define a true alias without having to insert it in a rule?
 
-## Release 3.1.6.1 (@maiste)
+# Minutes
+
+Attendees: @maiste @moyodiallo @ElectreAAS @rgrinberg @Leonidas-from-XIV
+
+## Release 3.16.1 (@maiste)
 
 We are releasing this patch version of dune `3.16` to incorporate a small change necessary for the `beta` version of `ocaml.5.3.0`. This is in a good way, and most of it went smooth. We need to discuss the `3.17` release because it will take more time to be release as there will be some regressions.
 
@@ -25,4 +29,3 @@ When there is a disjunction in opam file (using `or`), in the current situation,
 ## "Unvendor" the 0install solver (@ElectreAAS)
 
 To give us more control over the solver and the errors printed, we have decided to extract it and have our "own" version of the 0install solver.
-

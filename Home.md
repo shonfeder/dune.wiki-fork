@@ -18,7 +18,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes
 
-- [2024-10-16](dev-meeting-2024-10-30)
+- [2024-10-30](dev-meeting-2024-10-30)
 - [2024-10-16](dev-meeting-2024-10-16)
 - [2024-10-02](dev-meeting-2024-10-02)
 - [2024-09-18](dev-meeting-2024-09-18)

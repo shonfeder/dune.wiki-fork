@@ -1,6 +1,7 @@
 ## Agenda
 
 - Making the solver input the lockdir and the current lockdir a solution cache (@gridbugs)
+- Release Dune 3.17.0 and vision for dune 4.0.0 (@maiste)
 
 ## Proposal to rename "lockdirs" to "solution caches" and introduce a new "lockfile" which contains the inputs to the solver
 

@@ -5,7 +5,7 @@ Dev meetings
 
 To accommodate users in various time zones, we have 2 alternating slots: one that should work for GMT-xxx and one for GMT+xxx. These happen every other week, so we have a schedule with a 4-week period:
 
-- 2024 W01, W05, ...: 10:00-11:00 Paris time
+- 2024 W01, W05, ...: 09:00-10:00 Paris time
 - 2024 W02, W06, ...: no meeting
 - 2024 W03, W07, ...: 16:00-17:00 Paris time
 - 2024 W04, W08, ...: no meeting
@@ -18,6 +18,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes
 
+- [2024-11-13](dev-meeting-2024-11-13)
 - [2024-10-30](dev-meeting-2024-10-30)
 - [2024-10-16](dev-meeting-2024-10-16)
 - [2024-10-02](dev-meeting-2024-10-02)

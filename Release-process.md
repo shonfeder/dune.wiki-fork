@@ -57,7 +57,7 @@ stateDiagram-v2
     - ignore transient errors (disk full, switch disconnected, cancelled, etc)
     - file issues about regressions, add them to known blockers
   - Release Go/No Go (go to Release, or need another alpha)
-  - Mark alpha PR as closed
+  - Mark opam alpha PR as closed
 
 - Release time:
   - check versioned behaviors are relative to x.y

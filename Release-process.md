@@ -8,7 +8,7 @@ aspects to this:
 - a softer "decision" section that explains what should inform the decisions to
   take when there is a manual call to make.
 
-## Minor Releases (`x.y.0`)
+## Major / Minor Releases (`x.y.0`)
 
 ```mermaid
 gitGraph

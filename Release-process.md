@@ -56,6 +56,7 @@ stateDiagram-v2
     - consider new failures comparing from latest "known good" release
     - ignore transient errors (disk full, switch disconnected, cancelled, etc)
     - file issues about regressions, add them to known blockers
+    - compare the new CI revdeps errors with the errors from [previous releases](../Reverse-dependencies-CI-logs).
   - Release Go/No Go (go to Release, or need another alpha)
   - Mark opam alpha PR as closed
 

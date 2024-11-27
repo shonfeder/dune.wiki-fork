@@ -17,7 +17,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 [Zoom link](https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09)
 
 ### Minutes
-
+- [2024-11-27](dev-meeting-2024-11-27]
 - [2024-11-13](dev-meeting-2024-11-13)
 - [2024-10-30](dev-meeting-2024-10-30)
 - [2024-10-16](dev-meeting-2024-10-16)

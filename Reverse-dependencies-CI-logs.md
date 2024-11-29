@@ -3,3 +3,5 @@ We may also report failures to the package maintainers, but fixing them is not o
 
 ## Log files of previous releases
 - [dune-3-16-1-revdeps-errors.txt](https://github.com/user-attachments/files/17919862/dune-3-16-1-revdeps-errors.txt)
+- [dune-3.17-revdeps-errors.txt](https://github.com/user-attachments/files/17960477/dune-3.17-revdeps-errors.txt)
+

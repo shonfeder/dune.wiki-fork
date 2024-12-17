@@ -122,8 +122,7 @@ stateDiagram-v2
 
 - Backport:
   - Branch setup
-    - (z=1) Create branch `x.y` from commit tagged `x.y.0`
-    - (z>1) Position on branch `x.y`
+    - (z>0) Position on branch `x.y`
   - `git cherry-pick` commits as merged in `main`
   - Open PR
     - Set `x.y` as target branch, e.g. `gh pr create -B x.y`

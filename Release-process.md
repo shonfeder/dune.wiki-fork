@@ -126,7 +126,7 @@ stateDiagram-v2
   - `git cherry-pick` commits as merged in `main`
   - Open PR
     - Set `x.y` as target branch, e.g. `gh pr create -B x.y`
-    - Title starts with `[x.y]`
+    - Title must be `[x.y] backport #<PR id>`
     - List PR in blockers
 
 - Release:

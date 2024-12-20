@@ -78,6 +78,8 @@ stateDiagram-v2
   - Categorize changelog entries into Added / Fixed / Changed / Removed / Deprecated
   - Open PR on `ocaml/ocaml.org` to add a file in under `data/changelog/dune`
   - Post to discuss
+  - Merge changelog
+  - Update the Dune target in the [nix-ocaml/nix-overlays](https://github.com/nix-ocaml/nix-overlays) (the hash is computed using `nix-prefetch-url --type sha256 <URL>`)
   - Close release milestone
   - Close tracking issue
 
@@ -140,6 +142,7 @@ stateDiagram-v2
   - Open PR on `ocaml/ocaml.org` to add a file in under `data/changelog/dune`
   - Post changelog on Discuss in the same thread as `x.y.0`
   - Merge changelog
+  - Update the Dune target in the [nix-ocaml/nix-overlays](https://github.com/nix-ocaml/nix-overlays) (the hash is computed using `nix-prefetch-url --type sha256 <URL>`)
   - Close release tracking issue
 
 ## Decisions

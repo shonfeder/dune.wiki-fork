@@ -5,7 +5,9 @@
 - Binary distribution of preview, LSP and ocamlformat (@maiste) 
 - Cache (@ElectreAAS)
 
-## Notes
+## Meeting Notes
+
+Attendees: @gridbugs, @ElectreAAS, @art-w, @maiste 
 
 ### Binary Distribution
 

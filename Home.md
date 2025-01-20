@@ -18,6 +18,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes
 
+- [2025-01-22](dev-meeting-2025-01-22)
 - [2025-01-08](dev-meeting-2025-01-08)
 
 

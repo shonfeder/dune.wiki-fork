@@ -30,7 +30,6 @@ Release Planning
 -----------------
 
 - [Release Process](Release-process)
-- [Plan for Dune 2.9](Release-Plan-for-Dune-2.9)
 
 Sub-projects
 ------------
@@ -45,5 +44,6 @@ Side meetings
 Old Roadmaps
 ------------
 
-[Roadmap for Dune 2.0.0 (July 2019)](Roadmap-Dune2)
+- [Plan for Dune 2.9](Release-Plan-for-Dune-2.9)
+- [Roadmap for Dune 2.0.0 (July 2019)](Roadmap-Dune2)
 

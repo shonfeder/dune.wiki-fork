@@ -35,6 +35,7 @@ Attendees: @rgrinberg @Leonidas-from-XIV @shym @art-w
 - Dune could interpret those dependencies as non-transitives, such that they are only available to packages that explicitly depend on them. 
 - It would help cross-compilation, as build tools are not intended to be compiled for the targeted platform, only the host during compilation (typically preprocessing and build systems). 
 - Would also potentially allow for different versions of build tools used by dependencies, however that would require the solver to be aware of it
+- We would still rebuild on changes anyway, so not copying the `opam` semantics
 
 ### Which packages are failing (Marek)
 - Remaining issues for dune pkg:

@@ -81,6 +81,7 @@ stateDiagram-v2
   - Merge changelog
   - Update the Dune target in the [nix-ocaml/nix-overlays](https://github.com/nix-ocaml/nix-overlays) (the hash is computed using `nix-prefetch-url --type sha256 <URL>`)
   - Close release milestone
+  - Add the copy of the revdeps file to the [previous releases](https://github.com/ocaml/dune/wiki/Reverse-dependencies-CI-logs) page
   - Close tracking issue
 
 ## Point Releases / Patch Releases (`x.y.z`, `z >= 0`)

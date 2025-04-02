@@ -4,6 +4,10 @@
   - https://github.com/ocaml/dune/pull/11559
   - addresses https://github.com/ocaml/dune/issues/11527
 
+- `dune exec -w` leaving orphan processes. (@Alizter)
+  - https://github.com/ocaml/dune/issues/11089
+  - Reproduction https://github.com/ocaml/dune/pull/11562
+
 - Fixed double-running actions. (@Alizter)
   - cram tests being run twice https://github.com/ocaml/dune/pull/11547
   - user actions being run twice https://github.com/ocaml/dune/pull/11557

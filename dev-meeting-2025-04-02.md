@@ -20,3 +20,5 @@
   - We should split the how-to and the reference
   - Many issues due to people unable to read the poor documentation
 
+- Watch-mode with auto locking. (@maiste)
+

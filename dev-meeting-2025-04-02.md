@@ -24,7 +24,7 @@
 
 ## Meeting Notes
 
-Attendees: @Alizter @ElectreAAS @gridbugs @prometheansacrifice @aguluman @maiste
+Attendees: @Alizter @ElectreAAS @gridbugs @prometheansacrifice @aguluman @maiste @shym
 
 ### Dune exec
 

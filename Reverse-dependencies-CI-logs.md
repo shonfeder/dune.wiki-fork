@@ -5,3 +5,4 @@ We may also report failures to the package maintainers, but fixing them is not o
 - [dune-3-16-1-revdeps-errors.txt](https://github.com/user-attachments/files/17919862/dune-3-16-1-revdeps-errors.txt)
 - [dune-3.17-revdeps-errors.txt](https://github.com/user-attachments/files/17960477/dune-3.17-revdeps-errors.txt)
 - [dune-3-17-1-revdeps-errors.txt](https://github.com/user-attachments/files/19551754/dune-3-17-1-revdeps-errors.txt)
+- [dune-3.18.0-revdeps-errors.txt](https://github.com/user-attachments/files/19735515/3.18.0.txt)

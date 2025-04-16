@@ -4,3 +4,8 @@
   - See https://github.com/ocaml/dune/issues/11620
 - Discussion about the auto-locking @maiste
   - See https://github.com/ocaml/dune/issues/11614
+
+## Meeting notes
+
+Attendees: @panglesd @Leonidas-From-XIV @rgrindberg @alizter @maxim092001 @shym @maiste @rikusilvola "Jason Ho" "Chukwuma Akunyili"
+

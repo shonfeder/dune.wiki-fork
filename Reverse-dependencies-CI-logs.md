@@ -4,7 +4,7 @@ We may also report failures to the package maintainers, but fixing them is not o
 
 ## Log files of previous releases
 
-### 3.X.Y
+### 3.X.Y
 
 - [dune-3.19.0-revdeps-errors.txt](https://github.com/user-attachments/files/20493567/release-3.19.1.txt)
 - [dune-3.18.1-revdeps-errors.txt](https://github.com/user-attachments/files/19863260/3.18.1.txt)

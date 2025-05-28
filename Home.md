@@ -18,7 +18,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes :spiral_notepad: 
 
-- 2025-05-27 (Cancelled)
+- [2025-05-27](dev-meeting-2025-05-28)
 - [2025-05-14](dev-meeting-2025-05-14)
 - [2025-04-30](dev-meeting-2025-04-30)
 - [2025-04-16](dev-meeting-2025-04-16)

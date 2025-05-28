@@ -1,7 +1,6 @@
 ## Notes
 
-Attendees: @gridbugs, Chukwuma Akunyili, @Leonidas-from-XIV, Sam
-
+Attendees: @gridbugs, Chukwuma Akunyili, @Leonidas-from-XIV, @shym
 ### Portable Lockfiles (@gridbugs)
 
 - Dune got lockfiles/directories about a year ago

@@ -18,6 +18,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 
 ### Minutes :spiral_notepad: 
 
+- [2025-06-11](dev-meeting-2025-06-11)
 - [2025-05-28](dev-meeting-2025-05-28)
 - [2025-05-14](dev-meeting-2025-05-14)
 - [2025-04-30](dev-meeting-2025-04-30)

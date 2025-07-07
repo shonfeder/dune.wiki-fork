@@ -17,7 +17,7 @@ Still confused? Here's the link to the [public calendar](https://calendar.google
 [Zoom link](https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09)
 
 ### Minutes :spiral_notepad: 
-
+- [2025-07-09](dev-meeting-2025-07-09)
 - [2025-06-11](dev-meeting-2025-06-11)
 - [2025-05-28](dev-meeting-2025-05-28)
 - [2025-05-14](dev-meeting-2025-05-14)

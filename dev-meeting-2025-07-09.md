@@ -1,1 +1,3 @@
 ## Agenda
+
+- Merging strategy (@maiste)

@@ -2,6 +2,7 @@
 
 * Lockdir target changes to tests (@Leonidas-from-XIV)
 * MSP (or minimal opam parity) milestone (@shonfeder): https://github.com/ocaml/dune/milestone/62
+* `with-dev-setup` (@shonfeder)
 
 # Meeting notes
 

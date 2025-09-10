@@ -6,6 +6,7 @@ We may also report failures to the package maintainers, but fixing them is not o
 
 ### 3.X.Y
 
+- [dune-3.20.2-revdeps-errors.txt](https://github.com/user-attachments/files/22251224/dune-3.20.2-revdeps-errors.txt)
 - [dune-3.20.1-revdeps-errors.txt](https://github.com/user-attachments/files/21985011/dune-3.20.1-revdeps-errors.txt)
 - [dune-3-20-0-revdeps-errors.txt](https://github.com/user-attachments/files/21912942/dune-3-20-0-revdeps-errors.txt)
 - [dune-3.19.1-revdeps-errors.txt](https://github.com/user-attachments/files/21470164/dune-3.19.1-revdeps-errors.txt)

@@ -12,6 +12,7 @@ See our [public calendar](https://calendar.google.com/calendar/embed?src=c_5cd69
 [Zoom link](https://us06web.zoom.us/j/85096877776?pwd=cWNhU1dHQ1ZNSjZuOUZCQ0h2by9Udz09)
 
 ### Minutes :spiral_notepad:
+- [2025-09-24](dev-meeting-2025-09-24)
 - [2025-09-17](dev-meeting-2025-09-17)
 - [2025-09-10](dev-meeting-2025-09-10)
 - [2025-09-03](dev-meeting-2025-09-03)

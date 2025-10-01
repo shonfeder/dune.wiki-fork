@@ -42,9 +42,9 @@ https://meet.google.com/bmh-mwbw-aqo
       * but we still need "ensure ready"
 * Branch protections for CI (@shonfeder, @Leonidas-from-XIV)
   * @rgrinberg: Recent breakage is because of test dependency being updated
-  * @Leonidas-from-XIV: reducing breakage on main is on motive, but allowing merge when ready is also not important
+  * @Leonidas-from-XIV: reducing breakage on main is a motive, but allowing merge when ready is more important
   * relation to merge queue?
-     * This may be 
+     * This may be the problem that was an issue when testing merge queues last time
   * Conclusion: There are no objections, and we will proceed
   * Which CI should be required?
      * Let's start with enabling all of them, and we can selectively disable ones that prove flaky

@@ -1,3 +1,7 @@
+# New Link
+
+https://meet.google.com/bmh-mwbw-aqo
+
 # Agenda
 
 * Cmdliner 2.0 (@shonfeder, @ElectreAAS)

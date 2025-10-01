@@ -24,7 +24,8 @@ https://meet.google.com/bmh-mwbw-aqo
   * Rudi: worth investigating
   * Upsides?
     * code hi
-    * @Leonidas-from-XIV: potential perf improvement (for null builds only)
+    * @Leonidas-from-XIV: potential perf improvement
+    * @rgrinberg: for null builds only
     * @rgrinberg: needs to change reused actions, like running a file etc.
   * Issue to track: TODO
 * Clarifications around RPC situation in non-watch scenarios (@ElectreAAS)

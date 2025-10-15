@@ -13,6 +13,7 @@ See our [public calendar](https://calendar.google.com/calendar/embed?src=c_5cd69
 
 ### Minutes :spiral_notepad:
 
+- [2025-10-15](dev-meeting-2025-10-15)
 - [2025-10-08](dev-meeting-2025-10-08)
 - [2025-10-01](dev-meeting-2025-10-01)
 - [2025-09-24](dev-meeting-2025-09-24)

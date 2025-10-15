@@ -1,2 +1,35 @@
 - Tutorial session on rules (@shonfeder)
+  - Will coordinate with @alitzer and @rgrinberg
 - Perms to update CI branch protections (@shonfeder)
+  - @rgrinberg not present, will follow up async
+- Vendoring (@alitzer)
+  - For each package we have a script, that fetches the source code needed
+  - Currently doesn't have any checks/validation
+  - Ali has re-implemented the vendoring logic in ocaml
+  - The work on this is done
+  - Shon:
+    - Concerned about why we cannot do this in git already
+      - git submodules
+        - Ali: complicates development practices somewhat
+        - 
+      - or just principled operation to pull 
+  - Ali: Plan is to rempliment as much opam stuff as possible
+    - Shon the vision and plan (afaik) has always been to share as much code with opam as possible
+    - Marek: there were too many technical challenges
+  - Today we have bash scripts that vendor, but they don't work well
+    - Agreement amongst team is that this is important enough and causes enough problems that it is worth prioritizing trying to land the vendoring code
+- Behavior of dev tools re: auto-updates
+  - Supposing you have run `dune tools install dune-release` last week, the opam repository version is updated in the meantime, and then you run `dune tools exec dune-release`
+  - Should the behavior be:
+    1. Just run `dune-release`, or
+    2. First check and update the opam-repo, find a new version, than download and install the latest version
+  - Shon: it must be (1), IMO, We cannot try to execute a tool and instead it just suddenly starts executing instead of running
+  - Marke: we should update, because otherwise people end up with out of date tools
+  - Ali:
+    - At minimum, needs to be able to fail gracefully when there is no network connection
+    - If we make this configurable, then people who don't want the implicit update can disable it
+    - Ali: Microsoft force-updates, so we should take that into account, some/many users may expect this
+  - Possible design problem with dev-tools?
+    - Shon: thinks that `dune tools exec` should not install the versions too -- certainly should not reinstall updated versions
+  - Arthur: I would be upset if I tried to rebuild a project while debugging and suddenly the dependencies were updated and there were, e.g., new type errors with deps introduced
+  - Conclusion: we probably need more design work and discussion here

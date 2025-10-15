@@ -1,1 +1,1 @@
-- Tutorial session on rules
+- Tutorial session on rules (@shonfede)

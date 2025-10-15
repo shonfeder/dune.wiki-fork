@@ -1,1 +1,2 @@
-- Tutorial session on rules (@shonfede)
+- Tutorial session on rules (@shonfeder)
+- Perms to update CI branch protections (@shonfeder)

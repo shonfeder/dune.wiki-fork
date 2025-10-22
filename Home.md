@@ -5,7 +5,7 @@ Dev meetings
 
 We have developer meetings weekly. To accommodate users in various time zones, we have 2 alternating time slots.
 
-See our [public calendar](https://calendar.google.com/calendar/embed?src=c_5cd698df6784e385b1cdcdc1dbca18c061faa96959a04781566d304dc9ec7319%40group.calendar.google.com) for the next scheduled meetings. This can be imported to your calendar. If you wish to attend regularly, contact a dune dev for a invitation.
+See our [public calendar](https://calendar.google.com/calendar/embed?src=c_5cd698df6784e385b1cdcdc1dbca18c061faa96959a04781566d304dc9ec7319%40group.calendar.google.com) for the next scheduled meetings. This can be imported to your calendar.
 
 Each calendar event has a video link associated.
 

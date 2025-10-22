@@ -79,7 +79,7 @@ stateDiagram-v2
   - Open PR on `ocaml/ocaml.org` to add a file in under `data/changelog/dune`
   - Post to discuss
   - Merge changelog
-  - Increase the version of Dune to the new latest in the [dune-project](https://github.com/ocaml/dune/blob/main/dune-project#L1) and in the [dune-rpc](https://github.com/ocaml/dune/blob/main/otherlibs/dune-rpc/private/types.ml#L30). E.g, if you released `X.Y.Z`, the new version become `X.(Y+1).Z`.
+  - Increase the version of Dune to the new latest in the [GitHub CI](https://github.com/ocaml/dune/blob/9a274be98cb9c2786dd76184c19c44b89e061ea8/.github/workflows/workflow.yml#L350), [dune-project](https://github.com/ocaml/dune/blob/main/dune-project#L1) and in the [dune-rpc](https://github.com/ocaml/dune/blob/main/otherlibs/dune-rpc/private/types.ml#L30). E.g, if you released `X.Y.Z`, the new version become `X.(Y+1).Z`.
   - Update the Dune target in the [nix-ocaml/nix-overlays](https://github.com/nix-ocaml/nix-overlays) (the hash is computed using `nix-prefetch-url --type sha256 <URL>`)
   - Close release milestone
   - Add the copy of the revdeps file to the [previous releases](https://github.com/ocaml/dune/wiki/Reverse-dependencies-CI-logs) page

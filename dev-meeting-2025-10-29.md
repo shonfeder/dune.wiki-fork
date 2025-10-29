@@ -1,0 +1,2 @@
+- hiding lock dirs (@shonfeder)
+- lock dirs as build targets (@shonfeder)

@@ -1,2 +1,3 @@
 - hiding lock dirs (@shonfeder)
 - lock dirs as build targets (@shonfeder)
+  - reverting build tool dep sharing cuold unblock? (Marek)

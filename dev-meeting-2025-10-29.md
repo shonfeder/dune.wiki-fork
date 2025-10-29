@@ -1,4 +1,4 @@
 - hiding lock dirs (@shonfeder)
 - lock dirs as build targets (@shonfeder)
   - reverting build tool dep sharing could unblock? (Marek)
-- next release (@shonfede)
+- next release (@shonfeder)

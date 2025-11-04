@@ -34,3 +34,21 @@ Attendees: @aguluman, @punchagan, @Alizter, @rgrinberg, @shonfeder, @ElectreAAS,
 
 ## Portable lock dirs
 
+- How should they work when different platforms are involved, e.g. for solving and running?
+- The locked package versions can diverge between lock dirs
+  * @rgrinberg considers this a very undesireable feature
+  * This can be benign, but if different platforms get different versions then the API can also change, yielding incompatible results
+  * @shonfeder: Why do we want common versions between platforms?
+  * Opam is probably working on something like this in their solver
+  * Common versions reduce the size of the solution space
+- Unifying package versions between platform still needs to be done
+- What is a reasonable default set of platforms to lock for?
+  * Maybe there should not be any default set. This solves the issue that lock results are untested, the user has to opt-in to every platform, thus making them aware of the support burden explicitly
+- Is that even a real-world problem? Are we sure we're solving a practical problem that users have and not just a theoretical problem that requires an unlikely setup to trigger?
+- Could we require a successful build for every locked platform?
+  * This is complicated as you can only build your own platform
+  * Thus lockfiles would diverge over time, as only selected platforms are updated over time
+- @rgrinberg is in favor of enabling portable lock files by default and abolishing the feature flag
+- We should talk to @gridbugs about it
+
+## Hiding lock dirs (@shonfeder)

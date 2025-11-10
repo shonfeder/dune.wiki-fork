@@ -22,8 +22,8 @@ Attendees: @aguluman, @punchagan, @Alizter, @rgrinberg, @shonfeder, @ElectreAAS,
 
 ## Lock directories as build targets (@shonfeder)
 
-- Do we still think it is a valuable feature
-  * @rgrinberg says yes
+- Do we still think it is the correct design?
+  * @rgrinberg says yes: when we can afford it, it is always good to make things build targets, because when you can enable it, you lose nothing and gain flexibility 
   * Everybody agrees that it is the right thing to do
 - Can it be architected in a different way?
   * We want to have the lock dirs as build targets because they unlock a lot of desireable functionality that we want to have
@@ -48,7 +48,10 @@ Attendees: @aguluman, @punchagan, @Alizter, @rgrinberg, @shonfeder, @ElectreAAS,
 - Could we require a successful build for every locked platform?
   * This is complicated as you can only build your own platform
   * Thus lockfiles would diverge over time, as only selected platforms are updated over time
-- @rgrinberg is in favor of enabling portable lock files by default and abolishing the feature flag
+- @rgrinberg is in favor of enabling portable lock files by default and abolishing the feature flag once UI fixes are in place
 - We should talk to @gridbugs about it
 
 ## Hiding lock dirs (@shonfeder)
+
+  - Marek: we should hide the dev tools lock directory?
+  - Rudi: Agreed, this should be hidden

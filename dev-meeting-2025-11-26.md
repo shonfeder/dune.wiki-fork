@@ -13,3 +13,4 @@
   - Reverting read-only promote first
 * When are dependency updates to be allowed (@shonfeder)
   - I.e., not before invocations of commands unless local dependency specification has been updated
+* `dune-warnings` error on main (related to #12766, @ElectreAAS)

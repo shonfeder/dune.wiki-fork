@@ -8,3 +8,8 @@
   - The crux of this is captured in https://github.com/ocaml/dune/issues/12777 and https://github.com/ocaml/dune/issues/12756.
   - The solver behaviour is different from that of `opam` where it treats all repositories with same priority whearas opam has clear priority order for pulling in dependencies.
   - Also, it would be good to have a way to specify constraints for dev tools.
+* Release 3.21 (@shonfeder)
+  - Delayed on Shon, will be focus today
+  - Reverting read-only promote first
+* When are dependency updates to be allowed (@shonfeder)
+  - I.e., not before invocations of commands unless local dependency specification has been updated

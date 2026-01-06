@@ -5,7 +5,7 @@
 
 # Notes
 
-- present: @alizter, @electraas, @sudha247, @shonfeder, @art-w, Marek
+- present: @alizter, @electraas, @sudha247, @shonfeder, @art-w, @Leonidas-from-XIV
 
 - https://github.com/ocaml/dune/pull/12800 (@Alizter)
   - Building oxcaml with dune, we set `INSIDE_DUNE`

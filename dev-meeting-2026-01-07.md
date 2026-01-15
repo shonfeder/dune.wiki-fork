@@ -42,6 +42,6 @@ Attendees: Ali, Ambre, Chukwuma, Marek, Puneeth, Rudi, Shon, Sudha
 
 ## Action items 
 
-- Announce move of dune-dev meetings to Zulip
+- Announce move of dune-dev meetings to Zulip: https://discuss.ocaml.org/t/ann-dune-dev-meeting/14994/35?u=shonfeder
 - Update documentation
-- Issue a warning if a git-pinned local dir is dirty
+- Issue a warning if a git-pinned local dir is dirty: wip

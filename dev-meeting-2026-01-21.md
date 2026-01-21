@@ -14,11 +14,14 @@
 
 ## In & Out bug
 
-- Install rules need to be split out?
+- Install rules need to be split out? In order to have finer deps on packages inside the workspace.
 - Mismatch between which binaries/libraries a package provides. 
   - Currently, there's no way to know from where they are coming.
   - Ask for some metadata in opam for this
     - There's an issue for this
     - This needs collaboration from all non-dune packages
-    - May not be the basket to put all our eggs in
-  - Maybe we just depend on the package dependencies in `dune-project`. 
+    - May not be the best basket to put all our eggs in
+    - `dune-package` files already contain information so this is non-dune issue
+- Maybe we just depend on the package dependencies in `dune-project`.
+    - Solution to ambiguous tests belonging to packages can be solved by proposals such as private packages
+  

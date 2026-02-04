@@ -11,6 +11,7 @@ Each calendar event has a video link associated.
 
 ### Minutes :spiral_notepad:
 
+- [2026-01-04](dev-meeting-2026-01-04)
 - [2025-01-21](dev-meeting-2026-01-21)
 - [2025-01-07](dev-meeting-2026-01-07)
 - [2025-12-10](dev-meeting-2025-12-10)

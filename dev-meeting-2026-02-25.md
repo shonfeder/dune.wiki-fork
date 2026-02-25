@@ -1,1 +1,1 @@
-## Membership and perms on `ocaml-dune`
+## Membership and perms on `ocaml-dune` (Marek and Shon)

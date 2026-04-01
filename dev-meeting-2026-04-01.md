@@ -1,5 +1,8 @@
 # Agenda
 
+- Diff regression fix (Ali and Shon)
+  - Should we indeed revert (2) in https://github.com/ocaml/dune/pull/13696#issuecomment-4144269511
+
 - Post-action dependency refinement (Ali)
   - We (Tarides) want to make changes to the engine to allow for rules to optionally refine their dependencies
   - The refined dependencies will then be included in the target hash

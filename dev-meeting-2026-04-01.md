@@ -8,6 +8,13 @@
     - One based on ocamlobjinfo processing
     - Maybe others
 
+- Relocatable compiler work needs review (Ali)
+  - https://github.com/ocaml/dune/pull/13321
+  - We now detect `relocatable` or `relocatable-compiler` in the switch as our source of truth
+  - This is a recent decision by upstream opam
+  - We need to introduce overlays for the older compilers however due to the change in structure.
+  - There are still compiler rebuilds occasionally, but the reason is not clear. Likely env issues, but a more general way of detecting them would be nice.
+
 - When encountering `(sandbox always)` why do we choose `copy` and `symlink` over `hardlink`? (Ali)
   - Should we be preferring hardlink all the time?
   - Question came up adding hardlinking sandboxes to Windows https://github.com/ocaml/dune/pull/13987

@@ -6,6 +6,8 @@ We may also report failures to the package maintainers, but fixing them is not o
 
 ### 3.X.Y
 
+- [dune-3-22-2-Opam-CI.html](https://github.com/user-attachments/files/26766883/dune-3-22-2-Opam-CI.html)
+- [dune-3-22-1-Opam-CI.html](https://github.com/user-attachments/files/26766877/dune-3-22-1-Opam-CI.html)
 - [dune-3-22-0-Opam-CI.html](https://github.com/user-attachments/files/26443622/dune-3-22-0-Opam-CI.html)
 - [dune-3-21-1-Opam-CI.html](https://github.com/user-attachments/files/25506944/dune-3-21-1-Opam-CI.html)
 - [dune-3-21-0-Opam-CI.html](https://github.com/user-attachments/files/24683336/dune-3-21-0-Opam-CI.html)

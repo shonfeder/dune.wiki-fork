@@ -1,13 +1,60 @@
-* Coordinating on changes that could impact the wider ecosystem (Shon)
+- Coordinating on changes that could impact the wider ecosystem (Shon)
   - E.g., the ocaml lower bound.
-* Downgrading 4.14 lower bound to 4.11 (Ali)
+  - We should be more careful and communicating about these developments in the future
+  - Shon: proposing adding a comment to the version constraint in the dune-project noting that this is a sensitive issues
+- Downgrading 4.14 lower bound to 4.11 (Ali)
+  - https://github.com/ocaml/dune/issues/14506
   - https://github.com/ocaml/dune/pull/14502
-* Progress on in&out (Ali)
+  - Rudi is strongly against reverting: thinks we have nothing go gain by going back to 4.11
+  - Concrete impacts:
+    - opam maintains a vendored
+  - What makes the update to 4.14 critical for us?
+    - Rudi: Nothing critical
+    - But supporting older versions of ocaml takes effort
+    - The work of making dune work on the older versions of this compiler
+  - Rudi is eager to move to OCaml 5
+    - It's unfortunate that work has not been done on taking advantage of
+  - What are the LTS versions for the compiler
+    - 5.5, 5.4, 5.3, 4.14 : https://github.com/ocaml/ocaml#readme
+    - What should be our support minimum?
+    - Shon: suggest the support should be at least for the ocaml compiler LTS
+  - If we were to support older versions of the compiler, who should do it?
+    - Who will pay for the update this?
+    - Robin: extra support for older compiler versions makes bad news for the reputation of dune
+  - Shon: proposed way forward is to solicit either a call for additional concrete, negative impacts, os to inform opam that they will need to undertake the maintenance burden of this support
+- Filter inter-library dependencies per module
+  - https://github.com/ocaml/dune/pull/14492
+  - Rudi: thinks abandonining this PR would be a huge mistake
+    - can it be refactored into smaller pieces?
+    - Robin: no cuts I've ecplored currently are sufficient to keep from introducing regressions
+    - Rudi: extract out pure refators or no-ops, sharing of parsing, memoization table of ocamldep output
+  - Robin: would need to be looked at within a week or so, if I will get this in or land it
+  - Rudi's convencend all regressions in null-builds are regressable
+  - Rudi: agrees with most changes
+- Progress on in&out (Ali)
   - https://github.com/ocaml/dune/issues/8652#issuecomment-4381534621
   - https://github.com/ocaml/dune/pull/14432
   - https://github.com/ocaml/dune/pull/14499
   - https://github.com/ocaml/dune/pull/14373
-* Single solve for portable lock directories (Ali)
+  - Ali has strated tracking the roadmap of different steps to go thru
+    - General approach: materializing groups of dependencies (like installe layout) separately from the staging area
+    - Source of cycles is with compilation context
+    - Does this sound roughly correct or is there other stuff I should be aware of?
+    - Rudi: sounds like a step in the right direction, but it would help to 
+      - Currently you allowing opam packages to depend on packages inside the workspace
+      - Part 2 is allowing dune packages to depend on other dune packages without this machinery
+      - We shold make sure that we have a good story on how to fix this.
+      - Ali: Need to determine how to address this also when we have opam packages in the middle
+      - Want to avoid overfitting solution to the opam part of the problem
+    - Ali: need help with design of adapting to rule loading for things not in source tree
+      - Rudi: need to do download step eagerly, all at once, then need to modify rules so it looks at the downloaded sorces (and depends on downloading them)
+- Single solve for portable lock directories (Ali)
   - https://github.com/ocaml/dune/pull/14458
-* Issue 4572 PR (Robin) 
-  - https://github.com/ocaml/dune/pull/14492
+  - Arthur has a way to encode problem as a AST problem
+  - Pushed out to get initial feedback in case anything is obviously wrong
+  - Rudi: is in draft mode, what else needs to be done before I should look?
+  - Ali: I currently have tracing to see if we are doing unnecessary work
+    - Two stages: merging into one sat problem that solves for each different platform
+    - Second stage is we add implications to require that all the solutions are consistent
+    - Rudi: how much does the perf actually matter? Let's just put a time out.
+    - To check perf: run a for loop to try to find a solution for every opam package, if we can solve all of them, then call it good enough.

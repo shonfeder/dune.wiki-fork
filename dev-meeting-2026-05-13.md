@@ -9,4 +9,5 @@
   - https://github.com/ocaml/dune/pull/14373
 * Single solve for portable lock directories (Ali)
   - https://github.com/ocaml/dune/pull/14458
-* Issue 4572 PR (https://github.com/ocaml/dune/pull/14492)
+* Issue 4572 PR (Robin) 
+  - https://github.com/ocaml/dune/pull/14492

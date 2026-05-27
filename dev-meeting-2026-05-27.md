@@ -46,7 +46,12 @@ Present: Marek, Robin, Ali, Chukwuma, Shon
     - You don't want your build getting fixed between two different invocations
     - Also this is the model used elsewhere so it is easily understood
   - Shon shared context on some things that put us in a slightly different position than other ecosystems
-
+  - Ali's: proposal
+    - get rid of the "lockless" mode: lock directory must be in worktree
+    - also adopt the proposed semantics for the lock directory whereby it doesn't try to update unless there are changes to deps
+- Refined dependency analysis (Shon)
+  - Why PRs into separate branch rather than into main?
+    - This is just for 2 which need to land together to avoid breaking tests
 ---
 
 * Autolocking Dependency update model (Sudha)

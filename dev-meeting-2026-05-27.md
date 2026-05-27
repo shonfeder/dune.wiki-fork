@@ -41,6 +41,13 @@ Present: Marek, Robin, Ali, Chukwuma, Shon
 - Dependency update model (Sudha)
   - https://github.com/ocaml/dune/issues/13011
   - Sudha, enumerating proposals discussed in the issue
+  - Robin:
+    - Agreed that the automated updates between builds is not good
+    - You don't want your build getting fixed between two different invocations
+    - Also this is the model used elsewhere so it is easily understood
+  - Shon shared context on some things that put us in a slightly different position than other ecosystems
+
+---
 
 * Autolocking Dependency update model (Sudha)
   * Problem ([#13011](https://github.com/ocaml/dune/issues/13011)): When Auto-locking is enabled, Dune commands like dune build, dune runtest , etc. silently re-lock dependencies against upstream opam-repository. This could lead to consequences like compiler updates when one is just running tests. It makes local builds depend on the mutable opam-repo universe. This has been reported by some users like @samoht.
@@ -50,10 +57,3 @@ Present: Marek, Robin, Ali, Chukwuma, Shon
   3. Configurable lazy or eager updates: Make it possible for users to choose whether they want eager updates (every time dune build runs) or lazy (when they request, or dependencies change)
   4. Update only in specific intervals: Don't update from opam-repo on every build, do it in an interval like one day or two days, etc.  
   5. Updates running in the background: Without interrupting user commands, updates can happen in the background.
-
-  - Robin:
-    - Agreed that the automated updates between builds is not good
-    - You don't want your build getting fixed between two different invocations
-    - Also this is the model used elsewhere so it is easily understood
-  - Shon shared context on some things that put us in a slightly different position than other ecosystems
-

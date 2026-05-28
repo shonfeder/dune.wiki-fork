@@ -1,4 +1,4 @@
-Present: Marek, Robin, Ali, Chukwuma, Shon
+Present: Marek, Robin, Ali, Chukwuma, Shon, Sudha, Ambre
 
 - Release of 3.24 (Shon)
   - Only https://github.com/ocaml/dune/issues/14724, and it's a test issue

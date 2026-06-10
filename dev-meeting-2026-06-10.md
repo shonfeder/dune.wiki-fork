@@ -15,7 +15,7 @@
     - Both acceptable, but merging should be for when you have clean history
   - Let's add a PR template for
     - changelog entry for user-facing changes
-    - documentation added any user-facing changes
+    - documentation added for any user-facing changes
 
 # Meeting notes
 

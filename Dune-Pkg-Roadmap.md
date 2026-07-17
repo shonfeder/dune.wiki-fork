@@ -74,9 +74,14 @@ In the integration phase, we will aim to extend the breadth of support to all Ti
 
 ### 1. Inclusion in the opam-ci  **TODO**
 
-**Why this matters:** The opam-ci runs ecosystem-level integration tests on all packages published to the opam repository. For dune to be a peer of opam in the package management space, it is necessary that it achieve comparable stability, which will involve some level of testing.
+**Why this matters:** The opam-ci runs ecosystem-level integration tests on all
+packages published to the opam repository. For dune to be a peer of opam in the
+package management space, it is necessary that it achieve and maintain
+comparable stability for the packages published on the opam repository.
+
 **Target completion**: Q4 of 2026
-**Tracked by:** [Windows support for package management · Issue #11161 · ocaml/dune](https://github.com/ocaml/dune/issues/11161)
+
+**Tracked by:** [Plan roadmap for opam-ci support of dune pkg · Issue #14020 · ocaml/dune](https://github.com/ocaml/dune/issues/14020)
 
 ### 2. Windows Support **TODO**
 

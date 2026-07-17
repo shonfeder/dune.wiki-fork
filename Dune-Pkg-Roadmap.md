@@ -5,6 +5,7 @@
 <!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
 **Table of Contents**
 
+- [Dune Package Management Roadmap](#dune-package-management-roadmap)
 - [Target](#target)
 - [Roadmap](#roadmap)
   - [Phase I: Prototyping **completed**](#phase-i-prototyping-completed)
@@ -14,7 +15,7 @@
     - [3. Support for external packages depending on locally defined packages **in progress**](#3-support-for-external-packages-depending-on-locally-defined-packages-in-progress)
     - [4. Mature Support for Development tools **in progress**](#4-mature-support-for-development-tools-in-progress)
   - [Phase III: Integration **planned**](#phase-iii-integration-planned)
-    - [1. Inclusion in the opam-ci  **TODO**](#1-inclusion-in-the-opam-ci--todo)
+    - [1. Inclusion in the opam-ci **TODO**](#1-inclusion-in-the-opam-ci-todo)
     - [2. Windows Support **TODO**](#2-windows-support-todo)
     - [3. Mature the binary distribution and installation documentation **TODO**](#3-mature-the-binary-distribution-and-installation-documentation-todo)
     - [4. First-class Cross-compilation Support **TODO**](#4-first-class-cross-compilation-support-todo)
@@ -79,8 +80,8 @@ relocatable OCaml compiler](https://discuss.ocaml.org/t/relocatable-ocaml/17253)
 simplifies management of the compiler toolchain considerably. Supporting the
 relocatable compiler in Dune enables us to build the compiler like a regular
 package, making it easy to cache and share compilers, speeding up project
-initialization when using cached compilers and unlocking a simplification of the
-dune packagement management architecture.
+initialisation when using cached compilers and unlocking a simplification of the
+dune package management architecture.
 
 **Target completion**: Q2 of 2026
 
@@ -97,9 +98,9 @@ tree, and dune package management does not support this direction of dependency.
 
 This problem does not prevent *using* such packages as dependencies (e.g. dune
 package management works fine on projects that depend on Lwt), but it does
-prevent us from using Dune package management for managing packages for such
-projects dogfooding dune package management,  depriving us of an important
-feedback loop in the development process.
+prevent us from using Dune package management for *developing* such projects and
+prevents dogfooding dune package management on dune itself, depriving us of an
+important feedback loop in the development process.
 
 **Target completion**: Q3 of 2026
 
@@ -126,7 +127,7 @@ In the integration phase, we will aim to extend the breadth of support to all
 Tier-1 platforms, and ensure that dune package management is fully integrated in
 the OCaml package ecosystem as a co-equal peer with opam.
 
-### 1. Inclusion in the opam-ci  **TODO**
+### 1. Inclusion in the opam-ci **TODO**
 
 **Why this matters:** The opam-ci runs ecosystem-level integration tests on all
 packages published to the opam repository. For dune to be a peer of opam in the
@@ -164,7 +165,7 @@ setup.
 
 **Target completion**: Q1 of 2027
 
-**Tracked by:** [Mature the binary distribution • Issue #236 • ocaml-dune/binary-distribution](https://github.com/ocaml-dune/binary-distribution/issues/236)
+**Tracked by:** [Mature the binary distribution · Issue #236 · ocaml-dune/binary-distribution](https://github.com/ocaml-dune/binary-distribution/issues/236)
 
 ### 4. First-class Cross-compilation Support **TODO**
 
@@ -178,7 +179,7 @@ Dune to install the appropriate OCaml cross-compiler.
 
 **Target completion**: Q2 of 2027
 
-**Tracked by:** [First-class cross-compilation via dune package management • Issue #14731 • ocaml/dune](https://github.com/ocaml/dune/issues/14731)
+**Tracked by:** [First-class cross-compilation via dune package management · Issue #14731 · ocaml/dune](https://github.com/ocaml/dune/issues/14731)
 
 ### 5. First-class OxCaml Support **TODO**
 
@@ -190,11 +191,11 @@ fragmentation. Validation efforts of Dune package management have confirmed that
 it can support OxCaml with the proper configuration, but that configuration is
 cumbersome to encode by hand. We intend to make the support first-class by
 automating the required configuration on the basis of more general support for
-variable project initialization scaffolding in dune.
+variable project initialisation scaffolding in dune.
 
 **Target completion**: Q2 of 2027
 
-**Tracked by:** [Support project initialliation scaffolding · Issue #12100 • ocaml/dune](https://github.com/ocaml/dune/issues/12100)
+**Tracked by:** [Support project initialisation scaffolding · Issue #12100 · ocaml/dune](https://github.com/ocaml/dune/issues/12100)
 
 ### 6. First-class vendoring **TODO**
 
@@ -205,4 +206,4 @@ used by many established OCaml projects, from Mirage to Dune.
 
 **Target completion**: Q3 of 2027
 
-**Tracked by:** [Future of vendoring in Dune · Issue #3909 • ocaml/dune](https://github.com/ocaml/dune/issues/3909)
+**Tracked by:** [Future of vendoring in Dune · Issue #3909 · ocaml/dune](https://github.com/ocaml/dune/issues/3909)

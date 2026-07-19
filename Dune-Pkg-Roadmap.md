@@ -44,7 +44,7 @@ platforms](https://github.com/ocaml/ocaml?tab=readme-ov-file#overview).
 
 The following milestones lay out our high-level plans, separated into three phases of development. The milestones are sequenced in dependency order, so that earlier developments are expected to make the subsequent ones easier to deliver and secured with more robust foundations.
 
-## Phase I: Prototyping **completed**
+## Phase I: Prototyping [**completed**]
 
 The initial prototype of dune package management was properly inaugurated in
 [\[RFC\] Dune Package Management · Issue #7680 ·
@@ -57,13 +57,13 @@ Our testing has shown the features are not yet mature enough to recommend wider
 use, beyond eager and early adopters. Consequently, all the documentation warns
 that this functionality is experimental and subject to change.
 
-## Phase II: Stabilisation **active**
+## Phase II: Stabilisation [**active**]
 
 In the stabilisation phase, our focus is on maturing the experimental
 functionality into a stable, mature tool for mainstream OCaml development on
 macOS and Linux.
 
-### 1. Improve Release Process and CI Coverage **in progress**
+### 1. Improve Release Process and CI Coverage [**in progress**]
 
 **Why this matters:** Faster feedback cycles will help drive development of
 robust and user-centric tooling, and maturity in our release and integration
@@ -73,7 +73,7 @@ processes will drive greater stability and better flow in our development.
 
 **Tracked by:** [Improve release automation and reliability · Issue #13771 · ocaml/dune](https://github.com/ocaml/dune/issues/13771)
 
-### 2. Relocatable compiler support **completed**
+### 2. Relocatable compiler support [**completed**]
 
 **Why this matters:** David Allsopp’s [recently completed solution for a
 relocatable OCaml compiler](https://discuss.ocaml.org/t/relocatable-ocaml/17253)
@@ -87,7 +87,7 @@ dune package management architecture.
 
 **Tracked by:** [Relocatable compiler in dune · Issue #13229 · ocaml/dune](https://github.com/ocaml/dune/issues/13229)
 
-### 3. Support for external packages depending on locally defined packages **in progress**
+### 3. Support for external packages depending on locally defined packages [**in progress**]
 
 **Why this matters:** Lack of support for this common dependency pattern
 prevents the use of dune package management for developing many important
@@ -106,7 +106,7 @@ important feedback loop in the development process.
 
 **Tracked by:** [Overlapping Dependencies in Lock Directory ("in and out problem") · Issue #8652 · ocaml/dune](https://github.com/ocaml/dune/issues/8652)
 
-### 4. Mature Support for Development tools **in progress**
+### 4. Mature Support for Development tools [**in progress**]
 
 **Why this matters:** Software development makes use of a variety of tools.
 Standard tools include REPLs, formatters, and LSP servers, but one of the
@@ -121,13 +121,13 @@ an OCaml dev may want to use.
 
 **Tracked by:** [Redesign and reimplement support for dev tools · Issue #12914 · ocaml/dune](https://github.com/ocaml/dune/issues/12914)
 
-## Phase III: Integration **planned**
+## Phase III: Integration [**planned**]
 
 In the integration phase, we will aim to extend the breadth of support to all
 Tier-1 platforms, and ensure that dune package management is fully integrated in
 the OCaml package ecosystem as a co-equal peer with opam.
 
-### 1. Inclusion in the opam-ci **TODO**
+### 1. Inclusion in the opam-ci [**TODO**]
 
 **Why this matters:** The opam-ci runs ecosystem-level integration tests on all
 packages published to the opam repository. For dune to be a peer of opam in the
@@ -138,7 +138,7 @@ comparable stability for the packages published on the opam repository.
 
 **Tracked by:** [Plan roadmap for opam-ci support of dune pkg · Issue #14020 · ocaml/dune](https://github.com/ocaml/dune/issues/14020)
 
-### 2. Windows Support **TODO**
+### 2. Windows Support [**TODO**]
 
 **Why this matters:** Windows is a Tier-1 platform for the OCaml compiler and is
 used by most developers worldwide.
@@ -147,7 +147,7 @@ used by most developers worldwide.
 
 **Tracked by:** [Windows support for package management · Issue #11161 · ocaml/dune](https://github.com/ocaml/dune/issues/11161)
 
-### 3. Mature the binary distribution and installation documentation **TODO**
+### 3. Mature the binary distribution and installation documentation [**TODO**]
 
 **Why this matters:** For those who wish to adopt Dune’s approach to package
 management, it becomes possible to develop OCaml projects without needing opam.
@@ -167,7 +167,7 @@ setup.
 
 **Tracked by:** [Mature the binary distribution · Issue #236 · ocaml-dune/binary-distribution](https://github.com/ocaml-dune/binary-distribution/issues/236)
 
-### 4. First-class Cross-compilation Support **TODO**
+### 4. First-class Cross-compilation Support [**TODO**]
 
 **Why this matters:** Improved cross compilation offers benefits for resource
 constrained targets, for CI, and for the reach of delivery and distribution.
@@ -181,7 +181,7 @@ Dune to install the appropriate OCaml cross-compiler.
 
 **Tracked by:** [First-class cross-compilation via dune package management · Issue #14731 · ocaml/dune](https://github.com/ocaml/dune/issues/14731)
 
-### 5. First-class OxCaml Support **TODO**
+### 5. First-class OxCaml Support [**TODO**]
 
 **Why this matters:** OxCaml is an important space for innovation in the OCaml
 ecosystem. As OxCaml continues to develop, providing first-class support for the
@@ -197,7 +197,7 @@ variable project initialisation scaffolding in dune.
 
 **Tracked by:** [Support project initialisation scaffolding · Issue #12100 · ocaml/dune](https://github.com/ocaml/dune/issues/12100)
 
-### 6. First-class vendoring **TODO**
+### 6. First-class vendoring [**TODO**]
 
 **Why this matters:** Vendoring gives developers the flexibility to reduce their
 dependency cone, make adjustments to dependencies, and rapidly develop changes
